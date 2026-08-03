@@ -1,0 +1,38 @@
+{
+  "phase": "phase2",
+  "template": "T0",
+  "acc_by_cell": {
+    "OO": 0.9897435897435898,
+    "OS": 1.0,
+    "SO": 0.6974358974358974,
+    "SS": 0.6102564102564103
+  },
+  "ACC_o": 0.9948717948717949,
+  "ACC_s": 0.6538461538461539,
+  "RPAG": 0.34102564102564104,
+  "false_reject_SS": 0.3897435897435897,
+  "false_accept_SO": 0.3025641025641026,
+  "ss_error_groups": 76,
+  "so_error_groups": 59,
+  "ss_error_rate": 0.38974358974358975,
+  "so_error_rate": 0.30256410256410254,
+  "tie_rate": 0.0,
+  "nan_inf": 0,
+  "bootstrap_RPAG_ci": [
+    0.28717948717948716,
+    0.39743589743589747
+  ],
+  "bootstrap_FR_SS_ci": [
+    0.31794871794871793,
+    0.45641025641025645
+  ],
+  "gate_conditions": {
+    "c1_readout": true,
+    "c2_ACC_o_ge_0.85": true,
+    "c3_RPAG_ge_0.15": true,
+    "c4_error_volume": true,
+    "c5_tie_rate": true,
+    "c6_no_nan": true
+  },
+  "gate_source": "D1 d1_gate.py (unique recovery)"
+}

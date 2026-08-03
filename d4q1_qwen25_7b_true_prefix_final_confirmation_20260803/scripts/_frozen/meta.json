@@ -1,0 +1,12 @@
+{
+  "layer": 18,
+  "C_probe": 0.01,
+  "C_surface": 1.0,
+  "max_iter": 2000,
+  "class_weight": "balanced",
+  "dev_repro_auroc_probe": 0.9138872915468661,
+  "dev_repro_auprc_probe": 0.9632189056523878,
+  "dev_repro_auroc_surface": 0.6207590569292697,
+  "dev_repro_auprc_surface": 0.8181915706506249,
+  "tolerance": 0.0001
+}

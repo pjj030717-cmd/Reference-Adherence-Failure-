@@ -1,0 +1,17 @@
+relation,train,dev,final_reserve,total,share_of_total,train_ok_min10,dev_ok_min10,final_ok_min10
+author,931,292,286,1509,0.107196,yes,yes,yes
+capital,301,120,109,530,0.03765,yes,yes,yes
+capital of,228,70,55,353,0.025076,yes,yes,yes
+color,17,4,13,34,0.002415,yes,no,yes
+composer,558,201,218,977,0.069404,yes,yes,yes
+country,476,169,171,816,0.057967,yes,yes,yes
+director,1182,419,398,1999,0.142005,yes,yes,yes
+father,353,106,96,555,0.039426,yes,yes,yes
+genre,963,324,330,1617,0.114868,yes,yes,yes
+mother,110,39,38,187,0.013284,yes,yes,yes
+occupation,324,112,96,532,0.037792,yes,yes,yes
+place of birth,341,114,124,579,0.041131,yes,yes,yes
+producer,935,294,290,1519,0.107907,yes,yes,yes
+religion,196,70,69,335,0.023798,yes,yes,yes
+screenwriter,1207,389,401,1997,0.141863,yes,yes,yes
+sport,324,92,122,538,0.038218,yes,yes,yes

@@ -1,0 +1,16 @@
+{
+  "final_label": "segmented_execution_equivalence_invalid",
+  "rows_audited": 780,
+  "label_mismatch": 3,
+  "d_raw_abs_diff_mean": 0.18306483733348358,
+  "d_raw_abs_diff_max": 2.125,
+  "max_bf16_ulp_deviation": 21798.0,
+  "segmented_zero_equivalence_ok": false,
+  "final_reserve_model_scored": false,
+  "final_reserve_hidden_states_read": false,
+  "d3_fit_dev_disjoint": true,
+  "config_selected_on_dev": false,
+  "activation_intervention_run": false,
+  "prompt_baselines_run": false,
+  "mistral_loaded": false
+}

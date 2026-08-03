@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# 大规模中间产物：hidden states 张量（train/dev/final 均不入库）
+**/hidden_states/
+**/prefix_hidden_states/
+**/final_reserve_hidden_states/
+
+# 模型权重与模型缓存（不随仓库分发）
+models/
+**/models/
+*.safetensors
+*.bin
+.huggingface/
+
+# 日志 / 临时 / 缓存
+*.log
+*.tmp
+*.bak
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# 说明：
+# - scripts/_frozen/ 下的冻结探针（如 probe.npz，~76K）与顶层小型
+#   *_direction_artifact.npz 是 final 复现所需的冻结权重，保留入库。
+# - d2*/hidden_states/、d2r1*/prefix_hidden_states/ 等目录（数千个 npz）
+#   是大型中间产物，全部忽略。

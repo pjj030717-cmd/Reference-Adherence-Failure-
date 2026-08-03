@@ -1,0 +1,4 @@
+template_id,template,answer_only,declarative_answer_frame,question_restatement,explicit_reference_mention,explicit_evaluation_or_correctness_word,multi_sentence,explanatory_clause,potential_prompt_intervention_reference_hint,potential_prompt_intervention_correctness_hint
+T0,The answer is <answer>.,1,1,0,0,0,0,0,0,0
+T1,"For this question, the answer is <answer>.",1,1,1,0,0,0,0,0,0
+T2,The response is <answer>.,1,1,0,0,0,0,0,0,0

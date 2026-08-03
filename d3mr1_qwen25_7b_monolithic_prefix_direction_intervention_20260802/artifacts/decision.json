@@ -1,0 +1,29 @@
+{
+  "final_label": "monolithic_patch_dev_selectivity_insufficient",
+  "reason": "None of 32 (q, alpha) dev configs qualified. Direction V_logit@C=0.01 (OOF AUROC 0.922) predicts SS false-rejection, but L18/R_end additive intervention in monolithic forward flips no prediction: all SS_net_gain=0, nonSS_added_harm=0, CSI=0. Mechanistic audit confirms hook writes (delta_norm matches) and propagates (hs[19] changes), positive control at last layer flips d_raw (-3.0->+0.156). Even alpha=2 (|delta|=5.61) moves d_raw ~0.1; closest-to-boundary SS error (d_raw=-0.75) stays at -0.6875. Thus predictive signal is not a strong causal lever under this method.",
+  "phase0_monolithic_zero_equivalence": {
+    "rows": 780,
+    "label_mismatch": 0,
+    "max_abs_delta_d_raw": 0.0,
+    "r_end_mismatch": 0
+  },
+  "phase1_direction": {
+    "method": "V_logit@C=0.01",
+    "oof_auroc": 0.922287,
+    "oof_auprc": 0.977663,
+    "sigma_z_train": 2.8035105397314535,
+    "train_effect_size_sigma": 2.19
+  },
+  "phase2_dev": {
+    "n_configs": 32,
+    "n_qualified": 0,
+    "selected_SS_base_error_counts": {"q=1.00": 148, "q=0.75": 136, "q=0.50": 93, "q=0.25": 48}
+  },
+  "final_reserve_model_scored": false,
+  "final_reserve_hidden_states_read": false,
+  "monolithic_full_forward_only": true,
+  "prefix_cache_used": false,
+  "activation_intervention_run": true,
+  "prompt_baselines_run": false,
+  "mistral_loaded": false
+}

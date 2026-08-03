@@ -1,0 +1,4 @@
+template_a,template_b,normalized_character_levenshtein_distance,fixed_text_token_count_a,fixed_text_token_count_b,fixed_text_token_jaccard,longest_common_fixed_substring_length,answer_placeholder_char_pos_a,answer_placeholder_char_pos_b,char_len_a,char_len_b,word_count_a,word_count_b,sentence_count_a,sentence_count_b,punctuation_a,punctuation_b
+T0,T1,20,4,7,0.375,22,14,33,23,42,4,7,1,1,['.'],"[',', '.']"
+T0,T2,7,4,4,0.6,13,14,16,23,25,4,4,1,1,['.'],['.']
+T1,T2,21,7,4,0.222222,13,33,16,42,25,7,4,1,1,"[',', '.']",['.']

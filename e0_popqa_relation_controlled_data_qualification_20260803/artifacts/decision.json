@@ -1,0 +1,38 @@
+{
+  "final_label": "popqa_relation_swap_capacity_insufficient",
+  "capacity_ok": false,
+  "capacity_failure_reason": "relations_per_split {'train': 16, 'dev': 16, 'final_reserve': 16} (PopQA \u5b98\u65b9\u4ec5 16 \u4e2a relation \u7c7b\u578b)",
+  "source_ok": true,
+  "schema_ok": true,
+  "donor_in_split_ok": true,
+  "four_cell_contract_ok": true,
+  "template_contract_ok": true,
+  "capacity": {
+    "total": 14077,
+    "train": 8446,
+    "dev": 2815,
+    "final_reserve": 2816,
+    "relations_per_split": {
+      "train": 16,
+      "dev": 16,
+      "final_reserve": 16
+    },
+    "max_relation_share": 0.14200468849896994
+  },
+  "funnel": {
+    "initial": 14267,
+    "R1_R2_R3": 0,
+    "R4": 1,
+    "R5": 0,
+    "R6": 189,
+    "R7": 0,
+    "R8": 0,
+    "retained": 14077
+  },
+  "judge_loaded": false,
+  "inference_run": false,
+  "hidden_states_read": false,
+  "probe_trained": false,
+  "old_train_final_reserve_read": false,
+  "blind_packet_produced": false
+}

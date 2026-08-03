@@ -1,0 +1,77 @@
+source_group_id,question,T0_SS_d_raw,T0_SS_correct,T1_SS_d_raw,T1_SS_correct,T2_SS_d_raw,T2_SS_correct
+0e5e53a12a3532a8b292e0da9c32e962c792c48de4cf14ea151217f38da9e546,Purple loosestrife is a european wildflower that was introduced to which continent in the 1800's?,-11.875,False,-8.5,False,-12.6875,False
+0e6720dd58fc316e965e53fb88c5ce64e44eec09e9871c0869bdb0d5aac8fb45,Which element has the highest electronegativity value?,-11.0625,False,-10.1875,False,-11.5,False
+10c688835407c6795fb879cb2535d55f0927bb85029e051e3aa4de6c67c47398,"What planet, covered by a thick layer of clouds, looks smooth and featureless through a telescope?",-5.5,False,-6.875,False,-7.25,False
+121e26ee9b46cb89d2b26ca75281dd4a9e3fc03bacd4c01f7791bd5ede17b716,Which law predicts increasing entropy based on living systems?,-10.125,False,-8.9375,False,-11.5625,False
+1a07b80e58d0120531bcefee7ba132e3bd77bef834bc592741b579d8a1952ad2,What is the largest known animal?,-9.4375,False,-9.4375,False,-11.0625,False
+1b534c132ccabe1a0e4a1e184b5e57df190c3eef651eeb6d0cce1944eb689ffd,"Distinguished by the great red spot, what planet has an upper atmosphere containing ammonia clouds?",-5.625,False,-3.875,False,-8.625,False
+1e775ec427e192a7277498b2b5f22a189e2fd5e4a7ebe9a5d7ceb04d0edb4bea,What makes nobel gases unreactive?,-10.5625,False,-9.8125,False,-11.625,False
+20ca76d8e4f85568513476a52df419d075d3dd5fc5ccecf57f95ac7dd8fc87e6,Epithelial cells are found in what body organ?,-10.8125,False,-10.875,False,-11.9375,False
+21b042f63c92b50654186c8fe4187eace9b61ae49c15626476e5b27ce23675bb,"Protozoa that cause malaria are spread by a vector, entering the blood through the bite of what insect?",-3.25,False,-1.5,False,-6.0,False
+21e85b4efb563c2c7d719cd82eed25f1248ca7f7c8365f703644ce3dc4ad3f31,Bacteria and archaea that survive under extreme conditions are called?,-2.5,False,-10.4375,False,1.0,True
+2a20d544ff618b9501d9400c452e6e02e2e866fa2d6a08fb345c2ffb4f633edb,What is the three-dimensional structure of a single polypeptide called?,-3.125,False,-8.625,False,-3.25,False
+2dc8c8368d496987fff43c67a7613468467b611e116687d0980c83a39cd910aa,What is the term for sediment deposited by a glacier?,-10.625,False,-8.6875,False,-11.3125,False
+2f4703494c2a9ce69c4a05d3a0f85a95e69e0b7a1564dc0cfba14f55769487d6,What is the term for the interaction of waves with other waves?,-4.875,False,-7.125,False,9.9375,True
+32433ec8d7c816d84564c39977c687496178d90300834bb1c8fb5dbe8c496afd,Cardiac muscle normally has what kind of oxygen-using metabolism?,-10.0625,False,-10.3125,False,-10.75,False
+329dd7e54066ef13a3da213f7f3b6cff598c5899634f90f2aa842bf03bdfe22b,A homogeneous mixture composed of two or more substances is called a what?,-1.625,False,-10.0,False,-9.75,False
+335059d400355094616bc325ef0848eda0060b94b91bf17aa229387a74b6c2fe,"The embryo sac consists of only a few cells, one of which is the what?",-0.25,False,-5.875,False,-4.625,False
+37fd7343def15a982f55039a6fd91953c9aec931123a52d0f01f0e4298e0f327,"In myasthenia gravis, antibodies bind to and block certain receptors on muscle cells, preventing what?",-10.625,False,-10.125,False,-11.0,False
+3975f704337b080024800027d2e29bc96ed1f384966e94429dc7897299354c6c,What type of diseases are diseases that are caused by choices that people make in their daily lives?,-5.875,False,-8.125,False,-9.4375,False
+3dd056aadf1ba84092fcc9b21ef87dd26564c3486de97f4306b599e30773fdc6,Unsaturated hydrocarbons with at least one triple bond are known as?,-9.3125,False,-9.75,False,-10.625,False
+3f4368f134d45f2838ffaafce8c9a314e61a3bcb5d4e22c3fd0f72b73d01aa8a,What can have complex effects on soil nutrient concentrations?,-3.5,False,-0.125,False,-10.25,False
+41488a0975678237b0b358441e37e50020b7824ca58dc2ad8b6b05dbf1dce1e4,"What phylum includes sponges, which are aquatic invertebrates?",-11.6875,False,-10.875,False,-11.9375,False
+425597e7c6465516510ec8386f5266b416983270bf2da29be80104b652ec25af,Electric motors transform electrical energy into what other form of energy?,-11.0,False,-10.75,False,-12.0,False
+439ffe75992797ee13316de00c9d6aa9971cb83d549d64af220f741dded7b4d2,"What are an important predators of mosquitoes, that can be used to control this pest?",-10.375,False,-9.6875,False,-11.0,False
+47ccd792c57b9a4d617bbe4826f0c86753850106491369e516ebbb767746ddec,What law states that matter cannot be created or destroyed even when it changes?,-9.125,False,-4.625,False,-9.25,False
+4ac100f8d53d9f95785c499a24bff4d96fdeced0966b21ee7403971c9268cd5a,Ionic bonds are formed between which ions?,-7.5,False,-5.875,False,-8.125,False
+4c22a7020fcc075f9f948b5b4c877ceab447932756009ccd5e0296cb1c4146fd,What are atoms of the same element but with different numbers of neutrons called?,-4.25,False,0.0,False,-4.375,False
+510f55edebf39d8098e25f20bf735eb0ce82fee4ce7abf755d8d378d0ae4f9c5,What's the name for an organic compound in which halogen atoms are substituted for hydrogen in a hydrocarbon?,-9.875,False,-8.75,False,-10.5625,False
+52aba3c550dabe11b7e047ff5a4addc223e7b2d24ee14924ca69cfc2dae3b724,"Melting glaciers, rising temperatures and droughts are all impacts of what?",-6.5,False,-3.0,False,-7.75,False
+53a9a275a436d8bd4aa6f496fd454816a1ff515b21770e062f15a0df2cb4322d,"The classes anthozoa, scyphozoa, cubozoa, and hydrozoa make up what phylum?",-3.875,False,-8.25,False,-10.6875,False
+55bfeb38bb86d674bb85783339e06d4ca643b0f5c853ac48be50f1c5d7d61737,"What do we call the phase of nuclear division, in which one nucleus divides and becomes two nuclei?",-10.75,False,-10.5625,False,-11.125,False
+56b5b5d57e2db717fd38c32b39134d4a952db244beb8ba70c8bb0c9abcfbff87,Bases turn red litmus paper which color?,-10.625,False,-10.3125,False,-12.1875,False
+5af325bc6e29771297a7d9b3b33082db45f759378a47f70408b80e536f8173a8,The seven bones of the ankle are called the what?,-5.625,False,-8.375,False,-10.25,False
+5ffe4a411d668a603219b8508d8727ca5e0d1c9c7ec961398c4324e421f50265,What is a type of plant tissue consisting of undifferentiated cells that can continue to divide and differentiate?,-9.9375,False,-8.0,False,-11.25,False
+6215cf61f682532748483804f0bec679f57e2deeb2019bd3c4e390f10a27f94f,Electronegativities are used to determine the polarity of covalent bonds. the polarity of a covalent bond can be judged by determining the difference of the electronegativities of what involved in the covalent bond?,-10.25,False,-8.625,False,-8.625,False
+6b2143e219142ba475d18f254b29ea753624c43f12e7092097d953e83ba3000a,Correlation is different from what term that refers to the factor that is producing the effect?,-0.75,False,0.375,True,-4.625,False
+6b6dae961d88a80107784712b74ddf87ea5065d3083b52d379ae2ec75cebb215,Which type of carbohydrate is glucose?,-8.375,False,-9.375,False,-10.6875,False
+6bc87279df1f0b1ff747915a2abedad7fcd660bf27fceefe7b6b4be661911960,Fungi are now classified as their own kingdom. what kingdom were they previously a part of?,-12.625,False,-11.125,False,-12.375,False
+6dd3c98e72585bcf228341dc2750f03d27c670e98803ecd3ede73796a9feeaf1,How do roots and stems grow?,-11.0,False,-10.1875,False,-11.8125,False
+6f17b25ae06b263b38dc906ddf0ee72e91d2235171291091a43585a1c55263a4,Caffeine and alcohol are two examples of what type of drug?,-8.375,False,-9.0,False,-10.3125,False
+6f20891d4fbbf36a868ef4d6543496c6ca675d18fb0c79eeb2f864c4a2a65d1a,"What is the horizontal distance between two waves, measured at a common point (crest to crest or trough to trough), called?",-7.125,False,-9.8125,False,-3.375,False
+6fe3e27510c2d45cf3bc5f48a43f3f9b0f5bcfd61b08a8167b199bd40fc56c11,"Part of the fossil record, stromatolites belong to what rock group and are formed when minerals are precipitated out of water by prokaryotes in a microbial mat?",-6.625,False,-8.0,False,-10.6875,False
+6ffbd9b9795989778a37dfc5868aeb0b9078a0370e24e5ca96e692ad3a9dbb0a,"A phospholipid bilayer is made up of two layers of phospholipids, in which hydrophobic fatty acids are in the middle of the what?",-12.6875,False,-10.625,False,-12.875,False
+788c34ef73e5ccaf4376fc748a0275e60532beed1cab5c8e3bcc7dd363c8537c,"Sponges are part of what phylum, which gets its name from the latin for ""having pores""?",-10.6875,False,-10.8125,False,-10.9375,False
+7ca502c87aaf48633f254cf4f029007113e462645d89eb77dc5336148736535b,Claw hammers and pulleys are examples of simple machines that do what to the direction of force applied by the user?,-11.125,False,-11.8125,False,-11.75,False
+7d17895daf33aa644e6b588c7e429b6bfd5bc962e94b358e347c3f915384da54,What part of the plant absorbs water?,-8.375,False,-7.125,False,-11.0,False
+84ab9cc3d020ac95fe7fca05196e2a35dc0cf1eecf0da504facb46e1881eeb39,Photosynthesis takes the energy of sunlight and combines water and carbon dioxide to produce sugar and oxygen as this?,-3.875,False,-8.9375,False,-4.25,False
+86297af299924f76b8956048c63fa84a663c50aca292898344ed31a1cb48fd71,"Vertebrates - including fish, amphibians, reptiles, birds, and mammals - belong to what phylum?",-11.5,False,-11.3125,False,-11.625,False
+87f8c0fd0b06dd3ec294b9dd1326d4154e4e63e85e0d9c6abca67da45ad29605,"What are the substances that the body needs for energy, building materials, and control of body processes?",-10.6875,False,-11.9375,False,-11.0625,False
+89e01c538ebbb197fda81d378cfb9526161fa6370e6b72b1af232bc48d51f4a2,"Each hemisphere of the cerebrum consists of four parts, called what?",-4.625,False,-8.375,False,-9.0,False
+8e63f950b177c6f1acee25e35005d2a081fbdc51abe07d934642ad1e7b23256b,What do we call the microflora that aid in the digestion process?,-8.375,False,-9.5,False,-10.625,False
+9015a63195c2e27cd74439ad9d40649115256058f8218ba88e280ff140087102,What is the volume of air inhaled and exhaled with each breath called?,-8.25,False,-9.6875,False,-9.875,False
+9605a6042a7f9978526d1a45d4d230805e7843b08bcf7d058bbf8d93fcdc7147,"A wheel with a rope wrapped around it, hanging over a building, is an example of what type of machine?",-2.25,False,-2.875,False,1.75,True
+9a48b8a8d35c10c9696fa88651a5e839600948a47294a46721caa270613cc5cd,Relative humidity is related to the partial pressure of what in the air?,-11.5625,False,-0.875,False,-13.125,False
+9fb3ba35b4c9be26de8fe444e1d8057bdc8018f5a3c044b453d270a222474319,What type of tissue makes up the brain and the nerves that connect the brain to all parts of the body?,-9.4375,False,-8.125,False,-10.9375,False
+ad1614a31df5db29c425dece10e5666125bf46471cacda20678e408c7751b55b,What occurs whenever an unbalanced force acts on an object?,-2.375,False,-5.75,False,-7.625,False
+ad6dc70331b4074cde617f42131d13f1e3c1af0539732fa3690dfd1b4601c772,Polymers can disassemble by the reverse process called what?,-2.0,False,-7.625,False,-10.0625,False
+aee813e27e89661fc9afd1439ece3bb24fca269c35c599cc759ff24ddab57bef,What is performed to identify disease-causing genes?,-1.75,False,-7.625,False,-9.625,False
+bc9443215df6e659661924bfd50a16aacd685a79178c8e261d1879090e174438,What do we call the study of life and living things?,-1.75,False,-5.875,False,-10.5,False
+c8ded625a3e1509e8f29407e3829f984e30c7a027c73183e023546d735e6a8b0,What is the cartilaginous structure that extends from the pharynx to the primary bronchi?,-11.0,False,-7.0,False,-10.0625,False
+cac0fa7214cbe64d0ab89e006dbeb1ae517eefeda15cb3aa8bcd8b699fbf7f54,The largest phylum of the animal kingdom is what?,-11.6875,False,-10.4375,False,-11.875,False
+cc50a44f4933ce813b8cb212ba62698d3ce88e09c0bbc97b3982ded33080a34b,What kind of symmetry do most adult echinoderms possess?,-10.25,False,-11.3125,False,-11.375,False
+d0dedac3786f3c50237add4d7bfb2121d310f476830a81ea6feb08305f5cf3e2,"The insect reaches full size, acquires wings, and becomes sexually mature after what final stage?",-7.0,False,-5.875,False,-10.8125,False
+d4241ccb0b12c49180c5b46a1c5f7c5fe602cec9b4deb75282437541050b5fcb,What do you call the angle at which waves strike a wall?,-10.3125,False,-10.5625,False,-11.125,False
+d716b45450cc92f0207e397647f2e955120b268a9c3a06f632f6beb374da68a3,Excess dietary fat is stored as triglycerides in the body. what type of tissue is used to store the triglycerides?,-7.25,False,-5.375,False,-10.0625,False
+d9c7c3a3d62120d82c1b75cbfaa8055c1c35fc78cc555030391d0f1e55c6d7cb,"In projectile motion, the horizontal displacement of an object is called its what?",-3.875,False,-4.75,False,-8.25,False
+e13bf18f90782e12eff5b2a82e34a23f4c3da60257463a6615bef523cd15e752,What is another term for flagella?,-12.0,False,-10.5,False,-12.125,False
+eae655db4698b26b8506484e3d2964ae122201a1fc6e1efb5f1c16cdc3b64049,What is the name for the process of insects transforming from a young insect to an adult?,-9.3125,False,-8.875,False,-10.875,False
+ef9b265b3c0689deea4d6347e77e250fbb72b3d5b45768806264de9005b7c3e8,What part of vertebrates integrates the endocrine and nervous systems?,-11.8125,False,-11.875,False,-11.6875,False
+f04c5f9198427ddb50a413ef41e9cf3d877b8ffdfa63e3349044daa372bb226c,What does k stand for on the periodic table?,-11.8125,False,-11.4375,False,-12.9375,False
+f1db4d3c9b7d73d26d303534a6845276c17c7181324656367b0f21f9cb9a7bc9,"All the bones of the skull, except for the mandible, are joined to each other by a fibrous joint called what?",-11.4375,False,-11.5,False,-11.8125,False
+f2a0372b48ecb146721a5a97015730fd57d998767bee00a9570618d5b4a15334,What is the term for a disease in which the immune system makes an inflammatory response to a harmless antigen?,-10.0,False,-9.0625,False,-10.875,False
+f37d2a4996b7b5ce70513d5a92bdd7b0e05be64b6c08b51aa368154fcfad91c4,"Typically, what feature of an angiosperm has four main parts known as the calyx, corolla, androecium, and gynoecium?",-12.5625,False,-12.5,False,-13.125,False
+f6de5c13ed4fd11307e97176a4d61e5186ee5234eb6a25331341e4aa82d86287,"What organ has four major regions: the cerebrum, the diencephalon, the stem, and the cerebellum?",-12.4375,False,-12.125,False,-12.5,False
+f792425150ef401049f0567570e52700cf4a65c670dbc40e2987e227ad7b818c,Protein molecules are made up of chains of small molecules made up of what kinds of acids?,-10.9375,False,-9.125,False,-10.5625,False
+fa86e109c063366a399a71e8f1b5d56e1cd7ca60dcb9782a5c568d18bc8838d8,What is the name of the effect that causes air masses to move on a diagonal?,-2.25,False,-3.375,False,-10.75,False
+fe8d6ea33b2967974ed5d5bb87deaec20c56d3847aeb51fca31b56797035a3a8,The small amount of energy input necessary for all chemical reactions to occur is called what?,-4.75,False,-5.25,False,-8.25,False

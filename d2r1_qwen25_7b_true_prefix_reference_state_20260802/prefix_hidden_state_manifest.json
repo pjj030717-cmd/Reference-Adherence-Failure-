@@ -1,0 +1,16 @@
+{
+  "experiment": "D2-R1 true-prefix reference-state requalification",
+  "model": "Qwen/Qwen2.5-7B-Instruct revision a09a35458c702b33eeacc393d103063234e8bc28",
+  "template": "T0 = 'The answer is <answer>.' (UTF-8 SHA256 c42e1ea10a6be3343c109664dbd25860bb6dade650d7a86c066e7ddbb0d298bc)",
+  "prefix_construction": "prefix_input_ids = full_input_ids[:R_end+1]; R_end via offset mapping of Reference Answer body last non-whitespace token",
+  "hidden_state": "h_prefix[layer] = hidden_states[layer][0, prefix_len-1, :], layers 1..28",
+  "storage": "per-group compressed .npz under prefix_hidden_states/{split}_{group_id}.npz, float16, shape (28, 3584)",
+  "n_groups": {
+    "train": 587,
+    "dev": 195
+  },
+  "final_reserve": "197 groups NOT read/scored/cached/extracted",
+  "d2_hidden_arrays_reused": false,
+  "contract": "T0/T1/T2 prefix ids identical through R_end; repeated forward deterministic (see true_prefix_contract_audit.csv)",
+  "label_source": "inherited T0 SS scores from D2 score table (D2 dev SS labels verified equal to D1 four_cell_scores_dev.csv)"
+}

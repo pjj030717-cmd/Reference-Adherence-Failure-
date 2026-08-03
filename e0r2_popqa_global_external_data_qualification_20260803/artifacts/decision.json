@@ -1,0 +1,57 @@
+{
+  "final_label": "popqa_relation_swap_external_data_qualified",
+  "all_gates_passed": true,
+  "gates": {
+    "total>=1200": true,
+    "splits>=720/240/240": true,
+    "each split covers 16/16": true,
+    "max share <=0.25 per split": true,
+    "no cross-split overlap": true,
+    "donors same split + diff group": true,
+    "donors same relation": true,
+    "four-cell shared contract": true,
+    "c_o!=c_s all templates": true,
+    "T0/T1/T2 == D1-R-A canonical": true,
+    "no judge/tokenizer/model loaded": true
+  },
+  "per_split": {
+    "train": {
+      "n_relations": 16,
+      "min_groups": 17,
+      "min_relation": "color",
+      "max_share": 0.142908,
+      "max_relation": "screenwriter"
+    },
+    "dev": {
+      "n_relations": 16,
+      "min_groups": 4,
+      "min_relation": "color",
+      "max_share": 0.148845,
+      "max_relation": "director"
+    },
+    "final_reserve": {
+      "n_relations": 16,
+      "min_groups": 13,
+      "min_relation": "color",
+      "max_share": 0.142401,
+      "max_relation": "screenwriter"
+    }
+  },
+  "total_groups": 14077,
+  "split_counts": {
+    "train": 8446,
+    "dev": 2815,
+    "final_reserve": 2816
+  },
+  "e0_label_preserved": "popqa_relation_swap_capacity_insufficient",
+  "e0r1_label_preserved": "popqa_relation_coverage_insufficient",
+  "judge_loaded": false,
+  "tokenizer_loaded": false,
+  "model_loaded": false,
+  "inference_run": false,
+  "hidden_states_read": false,
+  "probe_trained": false,
+  "relation_deleted_or_resampled": false,
+  "h1_development_approved": true,
+  "manifest_metadata_only": true
+}

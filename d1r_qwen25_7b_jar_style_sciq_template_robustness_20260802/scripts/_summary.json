@@ -1,0 +1,173 @@
+{
+  "M": {
+    "T0": {
+      "cells": {
+        "OO": {
+          "n": 195,
+          "accuracy": 1.0,
+          "accept_rate": 1.0,
+          "mean_d_raw": 16.38357896071214,
+          "median_d_raw": 16.73828125,
+          "tie_rate": 0.0
+        },
+        "OS": {
+          "n": 195,
+          "accuracy": 1.0,
+          "accept_rate": 0.0,
+          "mean_d_raw": -21.055518830128204,
+          "median_d_raw": -21.28125,
+          "tie_rate": 0.0
+        },
+        "SO": {
+          "n": 195,
+          "accuracy": 0.9282051282051282,
+          "accept_rate": 0.07179487179487179,
+          "mean_d_raw": -14.254884064503205,
+          "median_d_raw": -16.5,
+          "tie_rate": 0.0
+        },
+        "SS": {
+          "n": 195,
+          "accuracy": 0.24102564102564103,
+          "accept_rate": 0.24102564102564103,
+          "mean_d_raw": -8.126830428685897,
+          "median_d_raw": -12.90625,
+          "tie_rate": 0.0
+        }
+      },
+      "ACC_o": 1.0,
+      "ACC_s": 0.5846153846153846,
+      "RPAG": 0.41538461538461535,
+      "false_reject_SS": 0.7589743589743589,
+      "false_accept_SO": 0.07179487179487179,
+      "total_tie_rate": 0.0
+    },
+    "T1": {
+      "cells": {
+        "OO": {
+          "n": 195,
+          "accuracy": 0.9948717948717949,
+          "accept_rate": 0.9948717948717949,
+          "mean_d_raw": 13.306904797676282,
+          "median_d_raw": 13.765625,
+          "tie_rate": 0.0
+        },
+        "OS": {
+          "n": 195,
+          "accuracy": 1.0,
+          "accept_rate": 0.0,
+          "mean_d_raw": -21.042327724358973,
+          "median_d_raw": -21.1875,
+          "tie_rate": 0.0
+        },
+        "SO": {
+          "n": 195,
+          "accuracy": 0.9538461538461539,
+          "accept_rate": 0.046153846153846156,
+          "mean_d_raw": -15.023174579326923,
+          "median_d_raw": -16.595703125,
+          "tie_rate": 0.0
+        },
+        "SS": {
+          "n": 195,
+          "accuracy": 0.16923076923076924,
+          "accept_rate": 0.16923076923076924,
+          "mean_d_raw": -10.603809845753204,
+          "median_d_raw": -14.6875,
+          "tie_rate": 0.0
+        }
+      },
+      "ACC_o": 0.9974358974358974,
+      "ACC_s": 0.5615384615384615,
+      "RPAG": 0.4358974358974359,
+      "false_reject_SS": 0.8307692307692308,
+      "false_accept_SO": 0.046153846153846156,
+      "total_tie_rate": 0.0
+    },
+    "T2": {
+      "cells": {
+        "OO": {
+          "n": 195,
+          "accuracy": 0.9641025641025641,
+          "accept_rate": 0.9641025641025641,
+          "mean_d_raw": 12.574641927083333,
+          "median_d_raw": 13.75,
+          "tie_rate": 0.0
+        },
+        "OS": {
+          "n": 195,
+          "accuracy": 1.0,
+          "accept_rate": 0.0,
+          "mean_d_raw": -20.468018830128205,
+          "median_d_raw": -20.75,
+          "tie_rate": 0.0
+        },
+        "SO": {
+          "n": 195,
+          "accuracy": 0.9641025641025641,
+          "accept_rate": 0.035897435897435895,
+          "mean_d_raw": -13.712799228766025,
+          "median_d_raw": -15.251953125,
+          "tie_rate": 0.0
+        },
+        "SS": {
+          "n": 195,
+          "accuracy": 0.11282051282051282,
+          "accept_rate": 0.11282051282051282,
+          "mean_d_raw": -10.364775046324118,
+          "median_d_raw": -13.21875,
+          "tie_rate": 0.0
+        }
+      },
+      "ACC_o": 0.982051282051282,
+      "ACC_s": 0.5384615384615384,
+      "RPAG": 0.44358974358974357,
+      "false_reject_SS": 0.8871794871794871,
+      "false_accept_SO": 0.035897435897435895,
+      "total_tie_rate": 0.0
+    }
+  },
+  "retention": {
+    "T1": 1.0,
+    "T2": 0.9932432432432432
+  },
+  "t0_ss_error_groups": 148,
+  "bootstrap_rows": [
+    {
+      "template": "T1",
+      "metric": "false_reject_SS",
+      "ci95_low": 0.7743589743589744,
+      "ci95_high": 0.882051282051282
+    },
+    {
+      "template": "T1",
+      "metric": "RPAG",
+      "ci95_low": 0.40512820512820513,
+      "ci95_high": 0.4641025641025641
+    },
+    {
+      "template": "T1",
+      "metric": "SS_error_retention",
+      "ci95_low": 1.0,
+      "ci95_high": 1.0
+    },
+    {
+      "template": "T2",
+      "metric": "false_reject_SS",
+      "ci95_low": 0.841025641025641,
+      "ci95_high": 0.9282051282051282
+    },
+    {
+      "template": "T2",
+      "metric": "RPAG",
+      "ci95_low": 0.4128205128205129,
+      "ci95_high": 0.4717948717948718
+    },
+    {
+      "template": "T2",
+      "metric": "SS_error_retention",
+      "ci95_low": 0.9885057471264368,
+      "ci95_high": 1.0
+    }
+  ]
+}

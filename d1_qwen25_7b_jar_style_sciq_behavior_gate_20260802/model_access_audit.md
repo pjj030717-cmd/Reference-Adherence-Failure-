@@ -1,0 +1,40 @@
+# model_access_audit.md
+
+## 模型
+
+- 名称：Qwen/Qwen2.5-7B-Instruct
+- 本地路径：`/root/autodl-tmp/models/Qwen2.5-7B-Instruct`
+- revision：`a09a35458c702b33eeacc393d103063234e8bc28`
+- 架构：qwen2，参数 7.616B
+- dtype：BF16；`model.eval()`；`torch.inference_mode()`
+- batch_size：1（无 padding batch）
+
+## 文件哈希（SHA256）
+
+| 文件 | SHA256 |
+|---|---|
+| config.json | 7463bb0ea78315365e6c6b74de4e73bbcc8359dfb0c5a737584e077d42c0b03c |
+| tokenizer.json | c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539 |
+| tokenizer_config.json | 5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583 |
+| vocab.json | ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910 |
+| merges.txt | 599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3 |
+| model.safetensors.index.json | 624bf7c47cd12468fdc16e38a47cf4f19e0415b859a223ba3c027eed2f0e1028 |
+
+## config.json 关键项
+
+```json
+{
+  "model_type": "qwen2",
+  "hidden_size": 3584,
+  "num_hidden_layers": 28,
+  "num_attention_heads": 28,
+  "num_key_value_heads": 4,
+  "vocab_size": 152064,
+  "torch_dtype": "bfloat16",
+  "max_position_embeddings": 32768
+}
+```
+
+## 结论
+
+模型为本地既有文件，未下载、未替换、未改动；满足本地合法加载。

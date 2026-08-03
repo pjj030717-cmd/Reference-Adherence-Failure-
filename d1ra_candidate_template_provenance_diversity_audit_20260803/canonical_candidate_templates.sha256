@@ -1,0 +1,14 @@
+{
+  "T0": {
+    "utf8_sha256": "c42e1ea10a6be3343c109664dbd25860bb6dade650d7a86c066e7ddbb0d298bc",
+    "template": "The answer is <answer>."
+  },
+  "T1": {
+    "utf8_sha256": "d325f862ad174533fe38c193744bbebd30b23e2ec72905a173c2b2eaed8fc078",
+    "template": "For this question, the answer is <answer>."
+  },
+  "T2": {
+    "utf8_sha256": "5fb1b5ed1ba1cb158981aea1673d936dcf88ff91b1423c6796031886de47df24",
+    "template": "The response is <answer>."
+  }
+}

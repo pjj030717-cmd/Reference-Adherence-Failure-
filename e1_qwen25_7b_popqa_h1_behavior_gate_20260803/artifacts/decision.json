@@ -1,0 +1,192 @@
+{
+  "final_label": "popqa_h1_behavior_insufficient",
+  "gate_conditions": {
+    "OO_acc>=0.85": true,
+    "OS_acc>=0.85": true,
+    "ACC_o>=0.85": true,
+    "FR_SS>=0.25": false,
+    "bootstrap_CI_lower_FR_SS>=0.20": false,
+    "RPAG>=0.15": false,
+    "SS_false_reject_groups>=200": false,
+    "tie_rate<=0.02": true,
+    "no_NaN_inf": true
+  },
+  "metrics": {
+    "OO": 0.9964476021314387,
+    "OS": 0.9996447602131439,
+    "SO": 0.9968028419182948,
+    "SS": 0.9474245115452931,
+    "ACC_o": 0.9980461811722913,
+    "ACC_s": 0.9721136767317939,
+    "RPAG": 0.025932504440497328,
+    "false_reject_SS": 0.05115452930728242,
+    "false_accept_SO": 0.003197158081705151,
+    "ss_false_reject_groups": 144,
+    "total_tie_rate": 0.00035523978685612787,
+    "d_raw": {
+      "mean": -2.396616780906122,
+      "median": -11.90625,
+      "p05": -22.15625,
+      "p25": -20.78125,
+      "p75": 16.53515625,
+      "p95": 18.0
+    }
+  },
+  "bootstrap_2000_seed_20260819": {
+    "FR_SS": {
+      "ci95_low": 0.0433392539964476,
+      "ci95_high": 0.05968028419182948
+    },
+    "RPAG": {
+      "ci95_low": 0.02184724689165185,
+      "ci95_high": 0.030550621669626965
+    }
+  },
+  "relation_descriptive": {
+    "author": {
+      "n": 292,
+      "FR_SS": 0.00684931506849315,
+      "ci95": [
+        0.0,
+        0.017123287671232876
+      ]
+    },
+    "capital": {
+      "n": 120,
+      "FR_SS": 0.625,
+      "ci95": [
+        0.5333333333333333,
+        0.7166666666666667
+      ]
+    },
+    "capital of": {
+      "n": 70,
+      "FR_SS": 0.22857142857142856,
+      "ci95": [
+        0.12857142857142856,
+        0.32857142857142857
+      ]
+    },
+    "color": {
+      "n": 4,
+      "FR_SS": 0.25,
+      "ci95": null
+    },
+    "composer": {
+      "n": 201,
+      "FR_SS": 0.004975124378109453,
+      "ci95": [
+        0.0,
+        0.014925373134328358
+      ]
+    },
+    "country": {
+      "n": 169,
+      "FR_SS": 0.08875739644970414,
+      "ci95": [
+        0.047337278106508875,
+        0.1301775147928994
+      ]
+    },
+    "director": {
+      "n": 419,
+      "FR_SS": 0.002386634844868735,
+      "ci95": [
+        0.0,
+        0.007159904534606206
+      ]
+    },
+    "father": {
+      "n": 106,
+      "FR_SS": 0.03773584905660377,
+      "ci95": [
+        0.009433962264150943,
+        0.07547169811320754
+      ]
+    },
+    "genre": {
+      "n": 324,
+      "FR_SS": 0.033950617283950615,
+      "ci95": [
+        0.015432098765432098,
+        0.05555555555555555
+      ]
+    },
+    "mother": {
+      "n": 39,
+      "FR_SS": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "occupation": {
+      "n": 112,
+      "FR_SS": 0.03571428571428571,
+      "ci95": [
+        0.008928571428571428,
+        0.07142857142857142
+      ]
+    },
+    "place of birth": {
+      "n": 114,
+      "FR_SS": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "producer": {
+      "n": 294,
+      "FR_SS": 0.003401360544217687,
+      "ci95": [
+        0.0,
+        0.01020408163265306
+      ]
+    },
+    "religion": {
+      "n": 70,
+      "FR_SS": 0.02857142857142857,
+      "ci95": [
+        0.0,
+        0.07142857142857142
+      ]
+    },
+    "screenwriter": {
+      "n": 389,
+      "FR_SS": 0.005141388174807198,
+      "ci95": [
+        0.0,
+        0.012853470437017995
+      ]
+    },
+    "sport": {
+      "n": 92,
+      "FR_SS": 0.09782608695652174,
+      "ci95": [
+        0.043478260869565216,
+        0.16304347826086957
+      ]
+    }
+  },
+  "synthetic_readout": {
+    "accuracy": 1.0,
+    "A": 12,
+    "B": 12,
+    "ties": 0,
+    "greedy_agreement": 24
+  },
+  "dev_only": true,
+  "n_dev_groups": 2815,
+  "n_scored_rows": 11260,
+  "source_stream_scanned_for_split_filter": true,
+  "final_reserve_text_exposed_to_model": false,
+  "final_reserve_model_scored": false,
+  "final_reserve_hidden_state_read": false,
+  "train_text_exposed_to_model": false,
+  "hidden_states_read": false,
+  "probe_trained": false,
+  "activation_intervention_run": false,
+  "prompt_baselines_run": false,
+  "h2_approved": false
+}

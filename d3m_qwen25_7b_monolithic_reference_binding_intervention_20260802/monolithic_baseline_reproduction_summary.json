@@ -1,0 +1,14 @@
+{
+  "rows": 780,
+  "label_mismatch": 0,
+  "max_bf16_ulp": 0.0,
+  "max_abs_d_raw": 0.0,
+  "nan": 0,
+  "tie": 0,
+  "cell_label_match_rate": {
+    "OO": 1.0,
+    "OS": 1.0,
+    "SO": 1.0,
+    "SS": 1.0
+  }
+}

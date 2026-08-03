@@ -1,0 +1,5 @@
+metric,value,note
+B_surface_AUROC,0.6207590569292697,dev frozen logistic (train-CV-selected C)
+B_surface_AUPRC,0.8181915706506249,dev
+selected_C,1.0,train 5-fold group CV
+feature_count,9,pre-registered model-free surface features

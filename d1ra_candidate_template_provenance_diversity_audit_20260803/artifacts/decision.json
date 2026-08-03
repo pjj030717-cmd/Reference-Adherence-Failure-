@@ -1,0 +1,76 @@
+{
+  "final_label": "template_provenance_and_diversity_audit_complete",
+  "interpretation_category": "structural_candidate_variation",
+  "templates_recovered": [
+    "T0",
+    "T1",
+    "T2"
+  ],
+  "templates": {
+    "T0": {
+      "template": "The answer is <answer>.",
+      "utf8_sha256": "c42e1ea10a6be3343c109664dbd25860bb6dade650d7a86c066e7ddbb0d298bc"
+    },
+    "T1": {
+      "template": "For this question, the answer is <answer>.",
+      "utf8_sha256": "d325f862ad174533fe38c193744bbebd30b23e2ec72905a173c2b2eaed8fc078"
+    },
+    "T2": {
+      "template": "The response is <answer>.",
+      "utf8_sha256": "5fb1b5ed1ba1cb158981aea1673d936dcf88ff91b1423c6796031886de47df24"
+    }
+  },
+  "placeholder_contract": {
+    "single_answer_placeholder": true,
+    "no_undeclared_placeholders": true,
+    "deterministic_render": true,
+    "templates_pairwise_distinct": true
+  },
+  "t0_alignment": {
+    "D0_candidate_rendering_spec": true,
+    "D1_dev_pairs_c_o_c_s": true,
+    "D1R_t0_reproduction_audit": true
+  },
+  "mechanical_summary": {
+    "levenshtein_T0_T1": 20,
+    "levenshtein_T0_T2": 7,
+    "levenshtein_T1_T2": 21,
+    "jaccard_T0_T1": 0.375,
+    "jaccard_T0_T2": 0.6,
+    "jaccard_T1_T2": 0.222
+  },
+  "expression_type": {
+    "T0": {
+      "answer_only": 1,
+      "declarative_answer_frame": 1,
+      "question_restatement": 0,
+      "explicit_reference_mention": 0,
+      "explicit_evaluation_or_correctness_word": 0,
+      "multi_sentence": 0
+    },
+    "T1": {
+      "answer_only": 1,
+      "declarative_answer_frame": 1,
+      "question_restatement": 1,
+      "explicit_reference_mention": 0,
+      "explicit_evaluation_or_correctness_word": 0,
+      "multi_sentence": 0
+    },
+    "T2": {
+      "answer_only": 1,
+      "declarative_answer_frame": 1,
+      "question_restatement": 0,
+      "explicit_reference_mention": 0,
+      "explicit_evaluation_or_correctness_word": 0,
+      "multi_sentence": 0
+    }
+  },
+  "prompt_intervention_contamination": false,
+  "judge_model_loaded": false,
+  "judge_forward_run": false,
+  "tokenizer_only": true,
+  "train_text_read": false,
+  "final_reserve_text_read": false,
+  "new_templates_constructed": false,
+  "behavior_results_used_for_classification": false
+}

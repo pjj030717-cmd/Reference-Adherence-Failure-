@@ -1,0 +1,47 @@
+{
+  "z_standardization": {
+    "k": {
+      "train_mean": 20.607041107125745,
+      "train_std": 3.2359209497527917
+    },
+    "rho": {
+      "train_mean": 2.7328460216522212,
+      "train_std": 3.6154726745161994
+    },
+    "note": "mean/std computed ONLY from SciQ train (587 groups); dev transformed with same values."
+  },
+  "hybrid": {
+    "features": [
+      "z_train(k)",
+      "z_train(rho)"
+    ],
+    "estimator": "LogisticRegression",
+    "penalty": "l2",
+    "C": 1.0,
+    "solver": "lbfgs",
+    "max_iter": 1000,
+    "random_state": 20260819,
+    "fitted_once_on": "SciQ train only",
+    "no_cv": true,
+    "no_grid_search": true,
+    "no_threshold_optimization": true,
+    "dev_scored_once": true,
+    "train_coef_k": 0.24328952090455336,
+    "train_coef_rho": 4.913202934535028,
+    "train_odds_ratio_k": 1.2754378365846666,
+    "train_odds_ratio_rho": 136.07455506470149,
+    "train_intercept": 4.594696193872312
+  },
+  "pairwise_delta": {
+    "dAUROC1_Mrep_minus_Bknowledge": 0.18221679125934442,
+    "dAUROC1_ci95": [
+      0.07332533338140937,
+      0.2840717394380059
+    ],
+    "dAUROC2_Mhybrid_minus_Bknowledge": 0.18854226566992516,
+    "dAUROC2_ci95": [
+      0.08545467081638608,
+      0.28788472051664427
+    ]
+  }
+}

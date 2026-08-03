@@ -1,0 +1,17 @@
+metric,value
+n_total,196
+n_y1,157
+n_y0,39
+positive_prevalence,0.801020
+AUROC_M_rep,0.925853340
+AUPRC_M_rep,0.976268075
+AUROC_B_surface,0.682998530
+AUPRC_B_surface,0.885240144
+Delta_AUROC_M_minus_B,0.242854810
+Delta_AUPRC_M_minus_B,0.091027931
+CI95_AUROC_M_rep,"[0.870414053,0.966768159]"
+CI95_AUROC_B_surface,"[0.589919101,0.772939031]"
+CI95_Delta_AUROC,"[0.138413597,0.351388642]"
+permutation_null_p97_5,0.589433284
+permutation_significant,True
+unique_prediction_count,2

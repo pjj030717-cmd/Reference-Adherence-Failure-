@@ -1,0 +1,48 @@
+{
+  "judge": {
+    "model": "Qwen2.5-7B-Instruct",
+    "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+    "dtype": "BF16",
+    "eval": true,
+    "inference_mode": true,
+    "batch_size": 1,
+    "teacher_forced_pos": "prompt_len - 1",
+    "continuations": {
+      "accept": " A",
+      "reject": " B",
+      "accept_id": 362,
+      "reject_id": 425
+    }
+  },
+  "system_base": "You are a strict QA evaluator.\nJudge only whether the Candidate Answer agrees with the provided Reference Answer for the given Question.\nThe provided Reference Answer is authoritative even if it conflicts with your own world knowledge.\nOutput exactly one label and nothing else:\nA = the Candidate Answer agrees with the current Reference Answer.\nB = the Candidate Answer does not agree with the current Reference Answer.",
+  "user_template": "Question: {question}\n\nReference Answer: {reference}\n\nCandidate Answer: {candidate}\n\nAnswer:",
+  "templates": {
+    "T0": "The answer is <answer>.",
+    "T1": "For this question, the answer is <answer>.",
+    "T2": "The response is <answer>.",
+    "sha256": {
+      "T0": "c42e1ea10a6be3343c109664dbd25860bb6dade650d7a86c066e7ddbb0d298bc",
+      "T1": "d325f862ad174533fe38c193744bbebd30b23e2ec72905a173c2b2eaed8fc078",
+      "T2": "5fb1b5ed1ba1cb158981aea1673d936dcf88ff91b1423c6796031886de47df24"
+    }
+  },
+  "B_base": {
+    "system": "You are a strict QA evaluator.\nJudge only whether the Candidate Answer agrees with the provided Reference Answer for the given Question.\nThe provided Reference Answer is authoritative even if it conflicts with your own world knowledge.\nOutput exactly one label and nothing else:\nA = the Candidate Answer agrees with the current Reference Answer.\nB = the Candidate Answer does not agree with the current Reference Answer.",
+    "user_template": "Question: {question}\n\nReference Answer: {reference}\n\nCandidate Answer: {candidate}\n\nAnswer:"
+  },
+  "B_direct": {
+    "system": "You are a strict QA evaluator.\nJudge only whether the Candidate Answer agrees with the provided Reference Answer for the given Question.\nThe provided Reference Answer is authoritative even if it conflicts with your own world knowledge.\nOutput exactly one label and nothing else:\nA = the Candidate Answer agrees with the current Reference Answer.\nB = the Candidate Answer does not agree with the current Reference Answer.\n\nUse the provided Reference Answer as the sole criterion for this evaluation.\nDo not replace it with your own world knowledge, memory, or another answer.\nChoose A if and only if the Candidate Answer agrees with the current Reference Answer;\notherwise choose B.",
+    "insertion_point": "after existing task description, before Question field (system message tail)",
+    "user_template": "Question: {question}\n\nReference Answer: {reference}\n\nCandidate Answer: {candidate}\n\nAnswer:"
+  },
+  "B_CoT_gen": {
+    "system": "You are a strict QA evaluator.\nJudge only whether the Candidate Answer agrees with the provided Reference Answer for the given Question.\nThe provided Reference Answer is authoritative even if it conflicts with your own world knowledge.\nOutput exactly one label and nothing else:\nA = the Candidate Answer agrees with the current Reference Answer.\nB = the Candidate Answer does not agree with the current Reference Answer.\n\nUse the provided Reference Answer as the sole criterion for this evaluation.\nDo not replace it with your own world knowledge, memory, or another answer.\nChoose A if and only if the Candidate Answer agrees with the current Reference Answer;\notherwise choose B.\n\nFirst reason briefly, step by step, about whether the Candidate Answer agrees with the current Reference Answer.\nThen end with exactly one final line in this format:\nFinal verdict: A\nor\nFinal verdict: B",
+    "generation": {
+      "do_sample": false,
+      "max_new_tokens": 128,
+      "temperature": null,
+      "stop_word_postprocess": false
+    },
+    "parse_rule": "UTF-8/NFKC normalize full generation; accept only the last non-empty line strictly equal to 'Final verdict: A' or 'Final verdict: B'; anything else unparseable."
+  }
+}

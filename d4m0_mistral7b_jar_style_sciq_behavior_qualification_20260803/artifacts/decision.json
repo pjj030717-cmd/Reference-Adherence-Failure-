@@ -1,0 +1,67 @@
+{
+  "final_label": "mistral_template_robustness_insufficient",
+  "final_reserve_read": true,
+  "hidden_states_read": false,
+  "probe_trained": false,
+  "activation_intervention_run": false,
+  "prompt_baselines_run": false,
+  "train_text_read": true,
+  "model": "mistralai/Mistral-7B-Instruct-v0.3 (local BF16)",
+  "phase0_inheritance": "passed (D0 label/dev 195/swap/four-cell/T0 rendering)",
+  "phase1_decision_channel": "passed (A->1098, B->1133; synthetic 24/24; ties 0)",
+  "phase2_t0_gate": {
+    "passed": true,
+    "ACC_o": 0.9948717948717949,
+    "RPAG": 0.34102564102564104,
+    "SS_error_groups": 76,
+    "SS_false_rejection_rate": 0.3897435897435897,
+    "FR_CI95": [
+      0.31794871794871793,
+      0.45641025641025645
+    ],
+    "gate_source": "D1 d1_gate.py (unique recovery)"
+  },
+  "phase3_template_gate": {
+    "passed": false,
+    "reason": "D1-R inherited FR_SS>=0.50 unmet for T1/T2; T2 CI lower<0.40",
+    "retention": {
+      "T1": 0.9868421052631579,
+      "T2": 0.9605263157894737
+    },
+    "FR_SS": {
+      "T1": 0.482051282051282,
+      "T2": 0.45641025641025645
+    },
+    "gate_conditions": {
+      "T1": {
+        "ACC_o_ge_0.95": true,
+        "FR_SS_ge_0.50": false,
+        "FR_CI_low_ge_0.40": true,
+        "RPAG_ge_0.20": true,
+        "retention_ge_0.60": true,
+        "tie_rate_le_0.02": true,
+        "no_nan": true
+      },
+      "T2": {
+        "ACC_o_ge_0.95": true,
+        "FR_SS_ge_0.50": false,
+        "FR_CI_low_ge_0.40": false,
+        "RPAG_ge_0.20": true,
+        "retention_ge_0.60": true,
+        "tie_rate_le_0.02": true,
+        "no_nan": true
+      }
+    },
+    "gate_source": "D1-R d1r_gate.py (unique recovery)"
+  },
+  "train_text_read_note": "HONEST DISCLOSURE: during Phase 0 file-structure exploration, the command head -3 was run on D0 eligible_source_groups.jsonl and preliminary_swap_pairs.jsonl, which printed 3 rows each including some train and final_reserve group question text. No such text was copied into this directory, used for scoring, feature extraction, or sample selection; all formal dev data flowed exclusively from D1 scripts/_dev_pairs.jsonl (dev-only). Scientific results are unaffected; this flag is set true to stay honest per the protocol prohibition.",
+  "final_reserve_read_note": "HONEST DISCLOSURE: same Phase 0 head -3 exploration printed one preliminary_swap_pairs.jsonl row whose split field is final_reserve (its question text was displayed). No final-reserve scoring, labels, caches, or hidden states were read or copied; no final-reserve text entered this directory or any analysis. Flag set true to stay honest per the protocol prohibition.",
+  "leak_isolation_audit": {
+    "audit_file": "leak_isolation_audit.md",
+    "id_level_isolation_pass": true,
+    "text_level_isolation_pass": true,
+    "dev_containment_pass": true,
+    "isolation_verdict": "PASS",
+    "note": "no train/final_reserve group id or question text present in any file in this directory; all deliverable source_group_ids subset of dev 195"
+  }
+}

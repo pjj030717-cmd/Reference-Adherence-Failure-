@@ -1,0 +1,31 @@
+{
+  "per_split": {
+    "train": {
+      "n_relations": 16,
+      "min_groups": 17,
+      "min_relation": "color",
+      "max_share": 0.142908,
+      "max_relation": "screenwriter"
+    },
+    "dev": {
+      "n_relations": 16,
+      "min_groups": 4,
+      "min_relation": "color",
+      "max_share": 0.148845,
+      "max_relation": "director"
+    },
+    "final_reserve": {
+      "n_relations": 16,
+      "min_groups": 13,
+      "min_relation": "color",
+      "max_share": 0.142401,
+      "max_relation": "screenwriter"
+    }
+  },
+  "total": 14077,
+  "split_counts": {
+    "train": 8446,
+    "dev": 2815,
+    "final_reserve": 2816
+  }
+}

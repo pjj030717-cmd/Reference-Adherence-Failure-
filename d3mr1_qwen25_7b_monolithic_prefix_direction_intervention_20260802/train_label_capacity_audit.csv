@@ -1,0 +1,2 @@
+subset,n,y1,y0,note
+train(all),587,468,119,direction construction uses ALL train (no fit/tune split per D3-M-R1)

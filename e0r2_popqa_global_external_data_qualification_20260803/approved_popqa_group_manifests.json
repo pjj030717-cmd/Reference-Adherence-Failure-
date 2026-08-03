@@ -1,0 +1,23 @@
+{
+  "train": {
+    "split": "train",
+    "group_count": 8446,
+    "sorted_group_id_sha256": "f6c4f8f8ca60dae05ca00abe07f1d2a9851ab916e70b393c5dca2170fdedecfb",
+    "relation_count": 16,
+    "relation_distribution_sha256": "17234ed59887feaadfafe238bea62149bb582ca70cde42b554b44a4251db0631"
+  },
+  "dev": {
+    "split": "dev",
+    "group_count": 2815,
+    "sorted_group_id_sha256": "14aa6be52f0698aad69cc70883bc1300f50b6dd48e4dca792348e178b9e31ee4",
+    "relation_count": 16,
+    "relation_distribution_sha256": "d94d48037e62e8258365ac552baf5b0b8276daa20ee99baa9f7c63347cc4d576"
+  },
+  "final_reserve": {
+    "split": "final_reserve",
+    "group_count": 2816,
+    "sorted_group_id_sha256": "625e890127dcd42baded75933c9864543b9ca41cf460d59878bafc3050c14004",
+    "relation_count": 16,
+    "relation_distribution_sha256": "ef26a7b3e4bc7701b5cd48995677b08eab9b8f27afbc0500b654e20d06b13adf"
+  }
+}

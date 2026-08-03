@@ -1,0 +1,63 @@
+{
+  "T0": {
+    "template": "The answer is <answer>.",
+    "utf8_sha256": "c42e1ea10a6be3343c109664dbd25860bb6dade650d7a86c066e7ddbb0d298bc",
+    "sources": [
+      {
+        "path": "d1r_qwen25_7b_jar_style_sciq_template_robustness_20260802/candidate_template_robustness_spec.json",
+        "locator": "templates.T0.template"
+      },
+      {
+        "path": "d1r_qwen25_7b_jar_style_sciq_template_robustness_20260802/scripts/d1r_template_spec.py",
+        "locator": "TEMPLATES['T0']"
+      },
+      {
+        "path": "d1r_qwen25_7b_jar_style_sciq_template_robustness_20260802/scripts/d1r_eval.py",
+        "locator": "TEMPLATES['T0']"
+      }
+    ]
+  },
+  "T1": {
+    "template": "For this question, the answer is <answer>.",
+    "utf8_sha256": "d325f862ad174533fe38c193744bbebd30b23e2ec72905a173c2b2eaed8fc078",
+    "sources": [
+      {
+        "path": "d1r_qwen25_7b_jar_style_sciq_template_robustness_20260802/candidate_template_robustness_spec.json",
+        "locator": "templates.T1.template"
+      },
+      {
+        "path": "d1r_qwen25_7b_jar_style_sciq_template_robustness_20260802/scripts/d1r_template_spec.py",
+        "locator": "TEMPLATES['T1']"
+      },
+      {
+        "path": "d1r_qwen25_7b_jar_style_sciq_template_robustness_20260802/scripts/d1r_eval.py",
+        "locator": "TEMPLATES['T1']"
+      }
+    ]
+  },
+  "T2": {
+    "template": "The response is <answer>.",
+    "utf8_sha256": "5fb1b5ed1ba1cb158981aea1673d936dcf88ff91b1423c6796031886de47df24",
+    "sources": [
+      {
+        "path": "d1r_qwen25_7b_jar_style_sciq_template_robustness_20260802/candidate_template_robustness_spec.json",
+        "locator": "templates.T2.template"
+      },
+      {
+        "path": "d1r_qwen25_7b_jar_style_sciq_template_robustness_20260802/scripts/d1r_template_spec.py",
+        "locator": "TEMPLATES['T2']"
+      },
+      {
+        "path": "d1r_qwen25_7b_jar_style_sciq_template_robustness_20260802/scripts/d1r_eval.py",
+        "locator": "TEMPLATES['T2']"
+      }
+    ]
+  },
+  "placeholder": "<answer>",
+  "render_rule": "<answer> is replaced by D0-frozen r_o/r_s normalized text (NFKC+trim+whitespace collapse).",
+  "t0_alignments": {
+    "D0_rendering_spec": true,
+    "D1_dev_pairs": true,
+    "D1R_t0_reproduction_audit": true
+  }
+}

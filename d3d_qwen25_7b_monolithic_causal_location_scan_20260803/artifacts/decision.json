@@ -1,0 +1,24 @@
+{
+  "final_label": "causal_location_dev_not_found",
+  "reason": "None of 72 (12 location, 6 alpha) dev configs qualified. Admission needs selected_SS_base_error_count>=30 (met, 92), SS_net_gain>=0.15 (max 0.0103 at L18/C_end alpha=0.25), nonSS_added_harm<=0.02 (met), CSI>=0.13 (max 0.0103). Mechanism verified: L26/D_pos alpha=-1 moved d_raw by +2.875 with correct sign on a selected SS error group, but selected SS-error d_raw range is [-19.78,-7.69]; no single-position linear additive patch flips any prediction. D_pos directions are near-perfect predictors (AUROC up to 0.99996) yet cannot be manipulated to cross the decision boundary, indicating the verdict is fixed by deeper multi-step computation.",
+  "phase0": {
+    "position_localization": {"rows": 780, "valid_order": 780, "valid_fraction": 1.0},
+    "passive_hook_zero_equiv": {"rows": 780, "prediction_mismatch": 0, "max_abs_delta_d_raw": 0.0},
+    "hidden_states_layer_mapping_ok": true
+  },
+  "phase1_direction_oof": {
+    "L14": {"R_end": 0.907, "C_end": 0.893, "D_pos": 0.897},
+    "L18": {"R_end": 0.933, "C_end": 0.974, "D_pos": 0.979},
+    "L22": {"R_end": 0.899, "C_end": 0.970, "D_pos": 0.999},
+    "L26": {"R_end": 0.851, "C_end": 0.954, "D_pos": 0.99996}
+  },
+  "phase2_routing": {"t_prefix": 0.6158, "dev_selected": 97, "selected_ss_base_errors": 92},
+  "phase3_scan": {"n_configs": 72, "n_qualified": 0, "max_CSI": 0.0103, "best_location": "L18/C_end", "best_alpha": 0.25},
+  "final_reserve_model_scored": false,
+  "final_reserve_hidden_states_read": false,
+  "monolithic_full_forward_only": true,
+  "prefix_cache_used": false,
+  "activation_intervention_run": true,
+  "prompt_baselines_run": false,
+  "mistral_loaded": false
+}

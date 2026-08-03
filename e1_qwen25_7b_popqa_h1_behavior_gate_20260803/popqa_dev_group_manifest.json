@@ -1,0 +1,23 @@
+{
+  "group_count": 2815,
+  "sorted_group_id_sha256": "14aa6be52f0698aad69cc70883bc1300f50b6dd48e4dca792348e178b9e31ee4",
+  "relation_distribution": {
+    "author": 292,
+    "capital": 120,
+    "capital of": 70,
+    "color": 4,
+    "composer": 201,
+    "country": 169,
+    "director": 419,
+    "father": 106,
+    "genre": 324,
+    "mother": 39,
+    "occupation": 112,
+    "place of birth": 114,
+    "producer": 294,
+    "religion": 70,
+    "screenwriter": 389,
+    "sport": 92
+  },
+  "relation_distribution_sha256": "d94d48037e62e8258365ac552baf5b0b8276daa20ee99baa9f7c63347cc4d576"
+}

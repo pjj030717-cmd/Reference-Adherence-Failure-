@@ -1,0 +1,40 @@
+{
+  "final_label": "qwen_true_prefix_monitor_final_confirmed",
+  "allowed_final_groups": 196,
+  "quarantined_final_groups": 1,
+  "quarantined_group_scored": false,
+  "quarantined_group_hidden_state_read": false,
+  "final_configuration_changed": false,
+  "hidden_layer": 18,
+  "hidden_token": "R_end",
+  "probe_C": 0.01,
+  "probe_refit_used_dev": false,
+  "probe_refit_used_final": false,
+  "activation_intervention_run": false,
+  "mistral_loaded": false,
+  "prompt_baselines_run": false,
+  "metrics": {
+    "AUROC_M_rep": 0.9258533398660788,
+    "AUPRC_M_rep": 0.9762680752812615,
+    "AUROC_B_surface": 0.6829985301322881,
+    "AUPRC_B_surface": 0.8852401441045641,
+    "Delta_AUROC": 0.2428548097337907,
+    "Delta_AUPRC": 0.09102793117669739,
+    "CI95_Delta_AUROC": [
+      0.13841359662594138,
+      0.35138864241348705
+    ],
+    "permutation_null_p97_5": 0.5894332843377429,
+    "n_total": 196,
+    "n_y1": 157,
+    "n_y0": 39,
+    "positive_prevalence": 0.8010204081632653
+  },
+  "decision_gates": {
+    "AUROC_M_rep_ge_0.70": true,
+    "bootstrap_CI_lower_dAUROC_gt_0": true,
+    "permutation_significant": true,
+    "no_nan_inf": true,
+    "unique_predictions_all_196": true
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "feature_names": [
+    "question_token_len",
+    "r_o_token_len",
+    "r_s_token_len",
+    "abs_token_len_diff_ro_rs",
+    "question_char_len",
+    "r_s_char_len",
+    "r_s_word_count",
+    "r_s_has_hyphen",
+    "r_s_is_multiword"
+  ],
+  "selected_C": 0.1
+}

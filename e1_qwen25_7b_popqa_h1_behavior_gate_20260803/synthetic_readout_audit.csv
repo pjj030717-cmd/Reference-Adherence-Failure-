@@ -1,0 +1,25 @@
+id,question,reference,candidate,expected_label,l_A,l_B,d_raw,p_accept_raw,predicted_label,correct,greedy_id,greedy_token,greedy_pred,greedy_agrees
+S01,What is the capital city of France?,Paris,Paris,A,15.5,-4.53125,20.03125,0.9999999980022614,A,True,32,A,A,True
+S02,Which planet is known as the Red Planet?,Mars,Mars,A,15.625,-5.09375,20.71875,0.999999998995474,A,True,32,A,A,True
+S03,What gas do plants absorb during photosynthesis?,Carbon dioxide,Carbon dioxide,A,15.0625,-6.40625,21.46875,0.9999999995254956,A,True,32,A,A,True
+S04,Who wrote the novel Moby-Dick?,Herman Melville,Herman Melville,A,14.0,-6.6875,20.6875,0.9999999989635868,A,True,32,A,A,True
+S05,What is the largest ocean on Earth?,Pacific Ocean,Pacific Ocean,A,15.0625,-6.15625,21.21875,0.9999999993907243,A,True,32,A,A,True
+S06,How many sides does a hexagon have?,Six,Six,A,16.125,-4.96875,21.09375,0.9999999993096,A,True,32,A,A,True
+S07,What instrument measures atmospheric pressure?,Barometer,Barometer,A,14.75,-4.34375,19.09375,0.9999999948985958,A,True,32,A,A,True
+S08,Which metal is liquid at room temperature?,Mercury,Mercury,A,15.6875,-5.34375,21.03125,0.999999999265073,A,True,32,A,A,True
+S09,What is the freezing point of water in Celsius?,Zero,Zero,A,15.25,-4.34375,19.59375,0.999999996905842,A,True,32,A,A,True
+S10,Who painted the Mona Lisa?,Leonardo da Vinci,Leonardo da Vinci,A,14.875,-6.28125,21.15625,0.9999999993514292,A,True,32,A,A,True
+S11,What is the speed of light in a vacuum?,"About 300,000 km per second","About 300,000 km per second",A,14.1875,-5.375,19.5625,0.9999999968076227,A,True,32,A,A,True
+S12,Which organ pumps blood through the body?,Heart,Heart,A,15.25,-4.9375,20.1875,0.9999999982912435,A,True,32,A,A,True
+S13,What is the capital city of France?,Paris,Berlin,B,-7.4375,16.75,-24.1875,3.129696462158118e-11,B,True,33,B,B,True
+S14,Which planet is known as the Red Planet?,Mars,Venus,B,-6.5,16.375,-22.875,1.1628233028868811e-10,B,True,33,B,B,True
+S15,What gas do plants absorb during photosynthesis?,Carbon dioxide,Oxygen,B,-6.6875,15.8125,-22.5,1.6918979223288784e-10,B,True,33,B,B,True
+S16,Who wrote the novel Moby-Dick?,Herman Melville,Mark Twain,B,-7.1875,16.0,-23.1875,8.507397021219472e-11,B,True,33,B,B,True
+S17,What is the largest ocean on Earth?,Pacific Ocean,Atlantic Ocean,B,-7.15625,16.875,-24.03125,3.658985864801128e-11,B,True,33,B,B,True
+S18,How many sides does a hexagon have?,Six,Eight,B,-6.09375,17.0,-23.09375,9.343547731026282e-11,B,True,33,B,B,True
+S19,What instrument measures atmospheric pressure?,Barometer,Thermometer,B,-7.03125,16.5,-23.53125,6.032647824345528e-11,B,True,33,B,B,True
+S20,Which metal is liquid at room temperature?,Mercury,Copper,B,-6.25,16.875,-23.125,9.056076988852741e-11,B,True,33,B,B,True
+S21,What is the freezing point of water in Celsius?,Zero,One hundred,B,-7.84375,14.25,-22.09375,2.539839600651081e-10,B,True,33,B,B,True
+S22,Who painted the Mona Lisa?,Leonardo da Vinci,Pablo Picasso,B,-6.46875,16.125,-22.59375,1.5404905887011202e-10,B,True,33,B,B,True
+S23,What is the speed of light in a vacuum?,"About 300,000 km per second","About 300,000 km per day",B,-5.3125,14.875,-20.1875,1.7087563671247272e-09,B,True,33,B,B,True
+S24,Which organ pumps blood through the body?,Heart,Liver,B,-7.3125,15.625,-22.9375,1.0923714004835431e-10,B,True,33,B,B,True

@@ -1,0 +1,8 @@
+{
+  "system": "You are a strict QA evaluator.\nJudge only whether the Candidate Answer agrees with the provided Reference Answer for the given Question.\nThe provided Reference Answer is authoritative even if it conflicts with your own world knowledge.\nOutput exactly one label and nothing else:\nA = the Candidate Answer agrees with the current Reference Answer.\nB = the Candidate Answer does not agree with the current Reference Answer.",
+  "user_template": "Question: {question}\n\nReference Answer: {reference}\n\nCandidate Answer: {candidate}\n\nAnswer:",
+  "accept": " A",
+  "reject": " B",
+  "accept_id": 362,
+  "reject_id": 425
+}

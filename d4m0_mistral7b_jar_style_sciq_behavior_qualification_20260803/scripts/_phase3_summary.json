@@ -1,0 +1,89 @@
+{
+  "phase": "phase3",
+  "t0_ss_error_groups": 76,
+  "retention": {
+    "T1": 0.9868421052631579,
+    "T2": 0.9605263157894737
+  },
+  "template_summaries": {
+    "T1": {
+      "acc_by_cell": {
+        "OO": 0.9846153846153847,
+        "OS": 0.9948717948717949,
+        "SO": 0.7333333333333333,
+        "SS": 0.517948717948718
+      },
+      "ACC_o": 0.9897435897435898,
+      "ACC_s": 0.6256410256410256,
+      "RPAG": 0.36410256410256414,
+      "false_reject_SS": 0.482051282051282,
+      "false_accept_SO": 0.2666666666666667,
+      "ss_error_groups": 94,
+      "so_error_groups": 52,
+      "tie_rate": 0.001282051282051282,
+      "nan_inf": 0
+    },
+    "T2": {
+      "acc_by_cell": {
+        "OO": 0.9846153846153847,
+        "OS": 1.0,
+        "SO": 0.6666666666666666,
+        "SS": 0.5435897435897435
+      },
+      "ACC_o": 0.9923076923076923,
+      "ACC_s": 0.6051282051282051,
+      "RPAG": 0.38717948717948725,
+      "false_reject_SS": 0.45641025641025645,
+      "false_accept_SO": 0.33333333333333337,
+      "ss_error_groups": 89,
+      "so_error_groups": 65,
+      "tie_rate": 0.0,
+      "nan_inf": 0
+    }
+  },
+  "bootstrap": {
+    "T1": {
+      "FR_SS_ci": [
+        0.41025641025641024,
+        0.5487179487179488
+      ],
+      "RPAG_ci": [
+        0.3076923076923077,
+        0.417948717948718
+      ],
+      "retention": 0.9868421052631579
+    },
+    "T2": {
+      "FR_SS_ci": [
+        0.3846153846153846,
+        0.5282051282051282
+      ],
+      "RPAG_ci": [
+        0.3307692307692308,
+        0.44358974358974357
+      ],
+      "retention": 0.9605263157894737
+    }
+  },
+  "gate_conditions": {
+    "T1": {
+      "ACC_o_ge_0.95": true,
+      "FR_SS_ge_0.50": false,
+      "FR_CI_low_ge_0.40": true,
+      "RPAG_ge_0.20": true,
+      "retention_ge_0.60": true,
+      "tie_rate_le_0.02": true,
+      "no_nan": true
+    },
+    "T2": {
+      "ACC_o_ge_0.95": true,
+      "FR_SS_ge_0.50": false,
+      "FR_CI_low_ge_0.40": false,
+      "RPAG_ge_0.20": true,
+      "retention_ge_0.60": true,
+      "tie_rate_le_0.02": true,
+      "no_nan": true
+    }
+  },
+  "gate_source": "D1-R d1r_gate.py (unique recovery)"
+}

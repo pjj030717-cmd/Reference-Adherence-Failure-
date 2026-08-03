@@ -1,0 +1,17 @@
+param,value
+n_train,587
+y1_train,468
+y0_train,119
+coef_z_k,0.24328952090455336
+coef_z_rho,4.913202934535028
+odds_ratio_k,1.2754378365846666
+odds_ratio_rho,136.07455506470149
+intercept,4.594696193872312
+C,1.0
+solver,lbfgs
+max_iter,1000
+random_state,20260819
+z_k_train_mean,20.607041107125745
+z_k_train_std,3.2359209497527917
+z_rho_train_mean,2.7328460216522212
+z_rho_train_std,3.6154726745161994

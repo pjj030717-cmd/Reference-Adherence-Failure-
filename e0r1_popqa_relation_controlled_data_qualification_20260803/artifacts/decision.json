@@ -1,0 +1,52 @@
+{
+  "final_label": "popqa_relation_coverage_insufficient",
+  "all_gates_passed": false,
+  "gates": {
+    "total>=1200": true,
+    "splits>=720/240/240": true,
+    "16 relations present": true,
+    "each split covers all 16": true,
+    "each relation >=10 per split": false,
+    "max share <=0.25 per split": true,
+    "no cross-split overlap": true,
+    "donor same split": true,
+    "donor same relation": true,
+    "donor != target": true,
+    "norm(r_o)!=norm(r_s)": true,
+    "four-cell shared contract": true,
+    "c_o!=c_s all templates": true,
+    "template word contract": true
+  },
+  "capacity": {
+    "total": 14077,
+    "train": 8446,
+    "dev": 2815,
+    "final_reserve": 2816
+  },
+  "relation_coverage": {
+    "train": {
+      "n_relations": 16,
+      "min_groups_per_relation": 17,
+      "min_relation": "color",
+      "max_share": 0.142908
+    },
+    "dev": {
+      "n_relations": 16,
+      "min_groups_per_relation": 4,
+      "min_relation": "color",
+      "max_share": 0.148845
+    },
+    "final_reserve": {
+      "n_relations": 16,
+      "min_groups_per_relation": 13,
+      "min_relation": "color",
+      "max_share": 0.142401
+    }
+  },
+  "judge_loaded": false,
+  "inference_run": false,
+  "hidden_states_read": false,
+  "probe_trained": false,
+  "old_train_final_reserve_read": false,
+  "blind_packet_generated": false
+}

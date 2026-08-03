@@ -1,0 +1,124 @@
+{
+  "experiment": "E0 PopQA Relation-Controlled Swap",
+  "source": {
+    "repo": "akariasai/PopQA",
+    "revision": "098765c79ea10a2cb19c828324e33281b8336ec0",
+    "config": "default",
+    "split": "test",
+    "license": "not specified",
+    "files_sha256": {
+      "test.tsv": "9a5227f41bff0e4c331d4a774d946b12f95307892b58f860a9606ef356e6089b",
+      "README.md": "bb04b56bc87a3b2865cc2e2a1649ba6c766a7a44dcba5a53170fbfc72c0da9f0"
+    },
+    "download_date": "2026-08-03"
+  },
+  "schema": {
+    "question": "question",
+    "canonical_answer": "obj",
+    "relation": "prop",
+    "official_id": "id"
+  },
+  "source_group_id": "SHA256(NFKC(q)\\x00NFKC(obj)\\x00NFKC(prop)\\x00NFKC(str(id)))",
+  "normalization": "NFKC + collapse whitespace; keep case & punctuation",
+  "filters": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7",
+    "R8"
+  ],
+  "split": {
+    "order": "dict-sort sgid, then random.Random(20260816) shuffle",
+    "ratio": "60/20/20",
+    "counts": {
+      "train": 8446,
+      "dev": 2815,
+      "final_reserve": 2816
+    }
+  },
+  "donor": {
+    "same_split": true,
+    "same_relation": true,
+    "different_sgid": true,
+    "answer_differs_norm": true,
+    "rng": "random.Random('20260816|'+source_group_id), choice()",
+    "candidates_sorted_by_sgid": true,
+    "fixed_across_templates": true
+  },
+  "templates": {
+    "T0": "The answer is <answer>.",
+    "T1": "For this question, the answer is <answer>.",
+    "T2": "The response is <answer>.",
+    "sha256": {
+      "T0": "c42e1ea10a6be3343c109664dbd25860bb6dade650d7a86c066e7ddbb0d298bc",
+      "T1": "d325f862ad174533fe38c193744bbebd30b23e2ec72905a173c2b2eaed8fc078",
+      "T2": "5fb1b5ed1ba1cb158981aea1673d936dcf88ff91b1423c6796031886de47df24"
+    },
+    "inherited_from": "D1-R-A canonical"
+  },
+  "four_cell_contract": {
+    "OO": [
+      "r_o",
+      "c_o",
+      "Accept"
+    ],
+    "OS": [
+      "r_o",
+      "c_s",
+      "Reject"
+    ],
+    "SO": [
+      "r_s",
+      "c_o",
+      "Reject"
+    ],
+    "SS": [
+      "r_s",
+      "c_s",
+      "Accept"
+    ]
+  },
+  "capacity_gates": {
+    "total_min": 1200,
+    "split_min": {
+      "train": 720,
+      "dev": 240,
+      "final_reserve": 240
+    },
+    "relations_per_split_min": 20,
+    "max_relation_share": 0.25,
+    "achieved": {
+      "total": 14077,
+      "train": 8446,
+      "dev": 2815,
+      "final_reserve": 2816,
+      "relations_per_split": {
+        "train": 16,
+        "dev": 16,
+        "final_reserve": 16
+      },
+      "max_relation_share": 0.14200468849896994
+    }
+  },
+  "blind_packet": {
+    "split": "dev",
+    "seed": 20260817,
+    "n": 100,
+    "produced": false,
+    "fields": [
+      "audit_id",
+      "question",
+      "r_o",
+      "r_s",
+      "T0_c_o",
+      "T0_c_s",
+      "T1_c_o",
+      "T1_c_s",
+      "T2_c_o",
+      "T2_c_s"
+    ]
+  }
+}

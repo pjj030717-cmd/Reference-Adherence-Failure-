@@ -1,0 +1,31 @@
+{
+  "final_label": "monolithic_direction_label_capacity_insufficient",
+  "reason": "D3M-tune 侧 y0=39 < 40（门槛 40）；fit y1=331/y0=80、tune y1=137/y0=39。按协议固定切分程序（SHA256 升序 + random.Random(20260804) shuffle + 70/30），未通过标签容量门。",
+  "inheritance": {
+    "D0": "jar_style_sciq_data_qualification_feasible",
+    "D1": "jar_style_reference_override_behavior_feasible",
+    "D1R": "template_robust_reference_override_feasible",
+    "D2": "prefix_causality_audit_invalid",
+    "D2R1": "true_prefix_reference_state_signal_localized",
+    "D3": "segmented_execution_equivalence_invalid"
+  },
+  "synthetic_readout": {"order_accuracy": "24/24", "ties": 0},
+  "baseline_reproduction": {
+    "rows": 780, "label_mismatch": 0, "max_bf16_ulp": 0.0, "max_abs_d_raw": 0.0, "nan": 0, "tie": 0
+  },
+  "hook_layer_mapping": {"bit_identical": true, "hidden_states_index": 18, "decoder_block_index": 17},
+  "passive_hook_zero_equivalence": {"rows": 780, "label_mismatch": 0, "max_d_raw_diff": 0.0},
+  "capacity": {
+    "split": {"seed": 20260804, "n_fit": 411, "n_tune": 176},
+    "fit": {"y1": 331, "y0": 80, "pass": true},
+    "tune": {"y1": 137, "y0": 39, "pass": false}
+  },
+  "final_reserve_model_scored": false,
+  "final_reserve_hidden_states_read": false,
+  "monolithic_full_forward_only": true,
+  "segmented_execution_used": false,
+  "prefix_cache_used": false,
+  "activation_intervention_run": false,
+  "prompt_baselines_run": false,
+  "mistral_loaded": false
+}

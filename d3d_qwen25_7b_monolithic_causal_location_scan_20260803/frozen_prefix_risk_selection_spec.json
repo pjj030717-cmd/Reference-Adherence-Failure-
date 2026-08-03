@@ -1,0 +1,9 @@
+{
+ "v_prefix_source": "D3-M-R1 frozen_direction_artifact.npz (V_logit@C=0.01)",
+ "mu_prefix_source": "D3-M-R1 frozen_direction_artifact.npz",
+ "z_prefix_formula": "v_prefix . (h_true_prefix_L18_R_end - mu_prefix)",
+ "t_prefix": 0.615811660338295,
+ "t_prefix_calculation": "median of train z_prefix (587 groups)",
+ "selection_rule": "selected(group) iff z_prefix >= t_prefix",
+ "note": "selection only reads Question+Reference prefix; never Candidate/SS label/full prompt"
+}

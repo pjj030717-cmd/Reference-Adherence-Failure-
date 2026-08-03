@@ -1,0 +1,337 @@
+{
+  "repro_total": 780,
+  "matches_d1": 780,
+  "matches_d1r": 780,
+  "agg": {
+    "B_base|T0": {
+      "OO": [
+        195,
+        195
+      ],
+      "OS": [
+        195,
+        195
+      ],
+      "SO": [
+        195,
+        181
+      ],
+      "SS": [
+        195,
+        47
+      ]
+    },
+    "B_base|T1": {
+      "OO": [
+        195,
+        195
+      ],
+      "OS": [
+        195,
+        195
+      ],
+      "SO": [
+        195,
+        191
+      ],
+      "SS": [
+        195,
+        34
+      ]
+    },
+    "B_base|T2": {
+      "OO": [
+        195,
+        194
+      ],
+      "OS": [
+        195,
+        195
+      ],
+      "SO": [
+        195,
+        190
+      ],
+      "SS": [
+        195,
+        34
+      ]
+    },
+    "B_direct|T0": {
+      "OO": [
+        195,
+        195
+      ],
+      "OS": [
+        195,
+        195
+      ],
+      "SO": [
+        195,
+        193
+      ],
+      "SS": [
+        195,
+        50
+      ]
+    },
+    "B_direct|T1": {
+      "OO": [
+        195,
+        194
+      ],
+      "OS": [
+        195,
+        195
+      ],
+      "SO": [
+        195,
+        194
+      ],
+      "SS": [
+        195,
+        38
+      ]
+    },
+    "B_direct|T2": {
+      "OO": [
+        195,
+        194
+      ],
+      "OS": [
+        195,
+        195
+      ],
+      "SO": [
+        195,
+        192
+      ],
+      "SS": [
+        195,
+        39
+      ]
+    },
+    "B_CoT_gen|T0": {
+      "OO": [
+        195,
+        195
+      ],
+      "OS": [
+        195,
+        195
+      ],
+      "SO": [
+        195,
+        185
+      ],
+      "SS": [
+        195,
+        48
+      ]
+    },
+    "B_CoT_gen|T1": {
+      "OO": [
+        195,
+        193
+      ],
+      "OS": [
+        195,
+        195
+      ],
+      "SO": [
+        195,
+        170
+      ],
+      "SS": [
+        195,
+        37
+      ]
+    },
+    "B_CoT_gen|T2": {
+      "OO": [
+        195,
+        195
+      ],
+      "OS": [
+        195,
+        193
+      ],
+      "SO": [
+        195,
+        185
+      ],
+      "SS": [
+        195,
+        47
+      ]
+    }
+  },
+  "tie_cnt": {
+    "B_base|T0": 0,
+    "B_base|T1": 0,
+    "B_base|T2": 0,
+    "B_direct|T0": 0,
+    "B_direct|T1": 0,
+    "B_direct|T2": 0,
+    "B_CoT_gen|T0": 0,
+    "B_CoT_gen|T1": 0,
+    "B_CoT_gen|T2": 0
+  },
+  "unp_cnt": {
+    "B_base|T0": 0,
+    "B_base|T1": 0,
+    "B_base|T2": 0,
+    "B_direct|T0": 0,
+    "B_direct|T1": 0,
+    "B_direct|T2": 0,
+    "B_CoT_gen|T0": 3,
+    "B_CoT_gen|T1": 1,
+    "B_CoT_gen|T2": 4
+  },
+  "boot": [
+    {
+      "baseline": "B_base",
+      "template": "T0",
+      "SS_FR_obs": 0.758974,
+      "SS_FR_ci_low": 0.697436,
+      "SS_FR_ci_high": 0.815385,
+      "RPAG_obs": 0.758974,
+      "RPAG_ci_low": 0.697436,
+      "RPAG_ci_high": 0.815385,
+      "ACC_o_obs": 1.0,
+      "ACC_o_ci_low": 1.0,
+      "ACC_o_ci_high": 1.0,
+      "ACC_s_obs": 0.241026,
+      "ACC_s_ci_low": 0.184615,
+      "ACC_s_ci_high": 0.302564
+    },
+    {
+      "baseline": "B_base",
+      "template": "T1",
+      "SS_FR_obs": 0.825641,
+      "SS_FR_ci_low": 0.769231,
+      "SS_FR_ci_high": 0.876923,
+      "RPAG_obs": 0.825641,
+      "RPAG_ci_low": 0.769231,
+      "RPAG_ci_high": 0.876923,
+      "ACC_o_obs": 1.0,
+      "ACC_o_ci_low": 1.0,
+      "ACC_o_ci_high": 1.0,
+      "ACC_s_obs": 0.174359,
+      "ACC_s_ci_low": 0.123077,
+      "ACC_s_ci_high": 0.230769
+    },
+    {
+      "baseline": "B_base",
+      "template": "T2",
+      "SS_FR_obs": 0.825641,
+      "SS_FR_ci_low": 0.769231,
+      "SS_FR_ci_high": 0.876923,
+      "RPAG_obs": 0.820513,
+      "RPAG_ci_low": 0.764103,
+      "RPAG_ci_high": 0.871795,
+      "ACC_o_obs": 0.994872,
+      "ACC_o_ci_low": 0.984615,
+      "ACC_o_ci_high": 1.0,
+      "ACC_s_obs": 0.174359,
+      "ACC_s_ci_low": 0.123077,
+      "ACC_s_ci_high": 0.230769
+    },
+    {
+      "baseline": "B_direct",
+      "template": "T0",
+      "SS_FR_obs": 0.74359,
+      "SS_FR_ci_low": 0.682051,
+      "SS_FR_ci_high": 0.805128,
+      "RPAG_obs": 0.74359,
+      "RPAG_ci_low": 0.682051,
+      "RPAG_ci_high": 0.805128,
+      "ACC_o_obs": 1.0,
+      "ACC_o_ci_low": 1.0,
+      "ACC_o_ci_high": 1.0,
+      "ACC_s_obs": 0.25641,
+      "ACC_s_ci_low": 0.194872,
+      "ACC_s_ci_high": 0.317949
+    },
+    {
+      "baseline": "B_direct",
+      "template": "T1",
+      "SS_FR_obs": 0.805128,
+      "SS_FR_ci_low": 0.74359,
+      "SS_FR_ci_high": 0.861538,
+      "RPAG_obs": 0.8,
+      "RPAG_ci_low": 0.738462,
+      "RPAG_ci_high": 0.85641,
+      "ACC_o_obs": 0.994872,
+      "ACC_o_ci_low": 0.984615,
+      "ACC_o_ci_high": 1.0,
+      "ACC_s_obs": 0.194872,
+      "ACC_s_ci_low": 0.138462,
+      "ACC_s_ci_high": 0.25641
+    },
+    {
+      "baseline": "B_direct",
+      "template": "T2",
+      "SS_FR_obs": 0.8,
+      "SS_FR_ci_low": 0.74359,
+      "SS_FR_ci_high": 0.85141,
+      "RPAG_obs": 0.794872,
+      "RPAG_ci_low": 0.738462,
+      "RPAG_ci_high": 0.851282,
+      "ACC_o_obs": 0.994872,
+      "ACC_o_ci_low": 0.984615,
+      "ACC_o_ci_high": 1.0,
+      "ACC_s_obs": 0.2,
+      "ACC_s_ci_low": 0.14859,
+      "ACC_s_ci_high": 0.25641
+    },
+    {
+      "baseline": "B_CoT_gen",
+      "template": "T0",
+      "SS_FR_obs": 0.753846,
+      "SS_FR_ci_low": 0.692308,
+      "SS_FR_ci_high": 0.815385,
+      "RPAG_obs": 0.753846,
+      "RPAG_ci_low": 0.692308,
+      "RPAG_ci_high": 0.815385,
+      "ACC_o_obs": 1.0,
+      "ACC_o_ci_low": 1.0,
+      "ACC_o_ci_high": 1.0,
+      "ACC_s_obs": 0.246154,
+      "ACC_s_ci_low": 0.184615,
+      "ACC_s_ci_high": 0.307692
+    },
+    {
+      "baseline": "B_CoT_gen",
+      "template": "T1",
+      "SS_FR_obs": 0.810256,
+      "SS_FR_ci_low": 0.753846,
+      "SS_FR_ci_high": 0.861538,
+      "RPAG_obs": 0.8,
+      "RPAG_ci_low": 0.74359,
+      "RPAG_ci_high": 0.85641,
+      "ACC_o_obs": 0.989744,
+      "ACC_o_ci_low": 0.974359,
+      "ACC_o_ci_high": 1.0,
+      "ACC_s_obs": 0.189744,
+      "ACC_s_ci_low": 0.138462,
+      "ACC_s_ci_high": 0.246154
+    },
+    {
+      "baseline": "B_CoT_gen",
+      "template": "T2",
+      "SS_FR_obs": 0.758974,
+      "SS_FR_ci_low": 0.697436,
+      "SS_FR_ci_high": 0.815385,
+      "RPAG_obs": 0.758974,
+      "RPAG_ci_low": 0.697436,
+      "RPAG_ci_high": 0.815385,
+      "ACC_o_obs": 1.0,
+      "ACC_o_ci_low": 1.0,
+      "ACC_o_ci_high": 1.0,
+      "ACC_s_obs": 0.241026,
+      "ACC_s_ci_low": 0.184615,
+      "ACC_s_ci_high": 0.302564
+    }
+  ]
+}

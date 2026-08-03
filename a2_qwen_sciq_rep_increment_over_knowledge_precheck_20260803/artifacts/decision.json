@@ -1,0 +1,44 @@
+{
+  "final_label": "representation_increment_over_knowledge_supported",
+  "rules": {
+    "auroc_mrep_ge_070": true,
+    "dauroc2_ge_002": true,
+    "dauroc2_ci_lower_gt_0": true,
+    "hybrid_rho_coef_gt_0": true
+  },
+  "dev_metrics": {
+    "B_surface_auroc": 0.6207590569292697,
+    "B_knowledge_auroc": 0.7316705002875217,
+    "M_rep_auroc": 0.913887291546866,
+    "M_hybrid_auroc": 0.9202127659574468
+  },
+  "dAUROC1_Mrep_minus_Bknowledge": 0.18221679125934442,
+  "dAUROC1_ci95": [
+    0.07332533338140937,
+    0.2840717394380059
+  ],
+  "dAUROC2_Mhybrid_minus_Bknowledge": 0.18854226566992516,
+  "dAUROC2_ci95": [
+    0.08545467081638608,
+    0.28788472051664427
+  ],
+  "hybrid_rho_coef": 4.913202934535028,
+  "spearman_k_rho_dev": 0.23790368589246622,
+  "dev_median_k": {
+    "y0": 20.01171875,
+    "y1": 22.046875
+  },
+  "dev_median_rho": {
+    "y0": -2.103978444732908,
+    "y1": 4.3126877044507275
+  },
+  "conclusion": "\u5728\u5df2\u6709\u65e0 Reference \u4e8b\u5b9e\u504f\u597d\u4e4b\u5916\uff0c\u8bfb\u5165\u5f53\u524d Reference \u540e\u7684 true-prefix \u8868\u793a\u98ce\u9669\u5206\u6570\u4ecd\u63d0\u4f9b\u4e86\u53ef\u6cdb\u5316\u7684\u989d\u5916\u9884\u6d4b\u4fe1\u606f\u3002",
+  "final_reserve_model_scored": false,
+  "final_reserve_text_read": false,
+  "hidden_states_newly_extracted": false,
+  "popqa_read": false,
+  "prompt_searched": false,
+  "activation_intervention_run": false,
+  "judge_four_cell_rescored": false,
+  "note": "development-only precheck\uff1b\u4e0d\u6784\u6210 final confirmation\uff1b\u4e0d\u8bc1\u660e \u03c1 \u4e3a\u56e0\u679c\u4e2d\u4ecb\uff1b\u4e0d\u6388\u6743 intervention\u3002"
+}

@@ -1,0 +1,22 @@
+{
+  "frozen": false,
+  "status": "no_qualified_configuration",
+  "final_label": "causal_location_dev_not_found",
+  "reason": "None of the 72 (12 location, 6 alpha) dev configurations satisfied all four admission criteria (selected_SS_base_error_count>=30, SS_net_gain>=0.15, nonSS_added_harm<=0.02, CSI>=0.13). Best observed CSI was 0.0103 (L18/C_end, alpha=0.25), far below 0.13.",
+  "scan_summary": {
+    "n_configs": 72,
+    "n_qualified": 0,
+    "best_per_location_CSI": {
+      "L18/C_end": 0.0103,
+      "L14/R_end": 0.0034,
+      "L14/C_end": 0.0034,
+      "L22/D_pos": 0.0034,
+      "L26/D_pos": 0.0034,
+      "others": 0.0
+    },
+    "selected_SS_base_error_count": 92,
+    "observation": "Mechanism verified (L26/D_pos alpha=-1 moved d_raw by 2.875 with correct sign), but selected SS-error groups have d_raw in [-19.78, -7.69]; no single-position linear additive patch in the fixed alpha range can flip any prediction."
+  },
+  "frozen_before_final_reserve": true,
+  "final_reserve_read": false
+}

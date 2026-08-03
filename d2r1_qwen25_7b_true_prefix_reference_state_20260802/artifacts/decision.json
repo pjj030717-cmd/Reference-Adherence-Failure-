@@ -1,0 +1,27 @@
+{
+  "final_label": "true_prefix_reference_state_signal_localized",
+  "d2_hidden_arrays_reused": false,
+  "final_reserve_model_scored": false,
+  "final_reserve_hidden_states_read": false,
+  "probe_trained": true,
+  "activation_intervention_run": false,
+  "prompt_baselines_run": false,
+  "mistral_loaded": false,
+  "inheritance_audit": "PASS",
+  "true_prefix_contract_audit": "PASS",
+  "ss_capacity": "PASS",
+  "decision_gate": "PASS",
+  "d2_label_preserved": "prefix_causality_audit_invalid",
+  "dev_metrics": {
+    "AUROC": 0.9138872915468661,
+    "AUROC_ci_lower": 0.8555882634619926,
+    "AUPRC": 0.9632189056523878,
+    "delta_auprc_vs_surface_ci_lower": 0.06694348963009547
+  },
+  "template_transfer": {
+    "T1_ss_acc": 0.1692,
+    "T2_ss_acc": 0.1128,
+    "T1_AUROC": 0.9433,
+    "T2_AUROC": 0.9611
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "final_label": "jar_style_sciq_data_qualification_feasible",
+  "model_loaded": false,
+  "judge_scored": false,
+  "hidden_states_read": false,
+  "probe_trained": false,
+  "source_revision": "2c94ad3e1aafab77146f384e23536f97a4849815",
+  "validation_groups": 1000,
+  "eligible_groups": 979,
+  "swap_excluded_groups": 0,
+  "final_pool_groups": 979,
+  "split_counts": {
+    "train": 587,
+    "dev": 195,
+    "final_reserve": 197
+  },
+  "blind_packet_groups": 100,
+  "rendering_template": "The answer is <answer>.",
+  "swap_seed": 20260802,
+  "split_seed": 20260802,
+  "blind_seed": 20260803
+}

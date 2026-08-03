@@ -1,0 +1,10 @@
+rule,excluded_count,cumulative_excluded
+r1_r_o_nonempty,0,0
+r2_tokens_1_to_6,1,1
+r3_no_digit,7,8
+r4_no_newline_url_bracket,3,11
+r5_only_en_letters_space_hyphen_apos,3,14
+r6_not_generic_answer,0,14
+r7_not_in_question,7,21
+r8_not_equal_distractor,0,21
+pass_all,979,21

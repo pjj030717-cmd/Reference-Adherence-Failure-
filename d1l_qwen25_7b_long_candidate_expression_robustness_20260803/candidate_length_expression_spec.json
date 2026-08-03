@@ -1,0 +1,78 @@
+{
+  "templates": {
+    "T0": {
+      "name": "T0",
+      "kind": "baseline_reproduction",
+      "role": "reproduction_baseline",
+      "template": "The answer is <answer>.",
+      "utf8_sha256": "c42e1ea10a6be3343c109664dbd25860bb6dade650d7a86c066e7ddbb0d298bc",
+      "char_count": 23,
+      "word_count": 4,
+      "placeholder_count": 1,
+      "single_placeholder": true,
+      "forbidden_words_hit": [],
+      "no_forbidden_words": true,
+      "render_rule": "<answer> replaced verbatim by r_o / r_s (no rewrite, no case change, no alias)",
+      "token_count_fixed": 8
+    },
+    "T3": {
+      "name": "T3",
+      "kind": "bare_answer",
+      "role": "diagnostic",
+      "template": "<answer>",
+      "utf8_sha256": "b9d4ba1fcb70a6267f1016f0b8a13e739a6f1a6c4145b0526b98a262f2a2e4f1",
+      "char_count": 8,
+      "word_count": 1,
+      "placeholder_count": 1,
+      "single_placeholder": true,
+      "forbidden_words_hit": [],
+      "no_forbidden_words": true,
+      "render_rule": "<answer> replaced verbatim by r_o / r_s (no rewrite, no case change, no alias)",
+      "token_count_fixed": 4
+    },
+    "T4": {
+      "name": "T4",
+      "kind": "long_first",
+      "role": "gate_template",
+      "template": "<answer> is the requested answer. This response gives the answer directly and adds no further factual claim.",
+      "utf8_sha256": "068fdfd1871f32bffb7ca9705222f71410b90abfcd41c99b1b2cb920c5e283b5",
+      "char_count": 108,
+      "word_count": 17,
+      "placeholder_count": 1,
+      "single_placeholder": true,
+      "forbidden_words_hit": [],
+      "no_forbidden_words": true,
+      "render_rule": "<answer> replaced verbatim by r_o / r_s (no rewrite, no case change, no alias)",
+      "token_count_fixed": 22
+    },
+    "T5": {
+      "name": "T5",
+      "kind": "long_last",
+      "role": "gate_template",
+      "template": "I will give a direct response to the question. The requested answer is <answer>.",
+      "utf8_sha256": "ee24f106d0b0a76f79709f99782fd35ee7b1267f1565b8bb37e8064747e21020",
+      "char_count": 80,
+      "word_count": 14,
+      "placeholder_count": 1,
+      "single_placeholder": true,
+      "forbidden_words_hit": [],
+      "no_forbidden_words": true,
+      "render_rule": "<answer> replaced verbatim by r_o / r_s (no rewrite, no case change, no alias)",
+      "token_count_fixed": 19
+    }
+  },
+  "forbidden_words": [
+    "reference",
+    "context",
+    "source",
+    "evidence",
+    "correct",
+    "valid",
+    "judge",
+    "grade",
+    "score",
+    "accept",
+    "reject"
+  ],
+  "seed": null
+}

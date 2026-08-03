@@ -1,0 +1,22 @@
+{
+  "frozen": false,
+  "status": "no_qualified_configuration",
+  "final_label": "monolithic_patch_dev_selectivity_insufficient",
+  "reason": "None of the 32 (coverage q, alpha) dev configurations satisfied all four admission criteria (selected_SS_base_error_count>=20, SS_net_gain>=0.10, nonSS_added_harm<=0.02, CSI>=0.08).",
+  "direction_method": "V_logit@C=0.01",
+  "direction_oof_auroc": 0.922287,
+  "direction_oof_auprc": 0.977663,
+  "sigma_z_train": 2.8035105397314535,
+  "alpha_star": null,
+  "q_star": null,
+  "selection_threshold": null,
+  "evaluated_grid_summary": {
+    "n_configs": 32,
+    "all_SS_net_gain": 0.0,
+    "all_nonSS_added_harm": 0.0,
+    "all_CSI": 0.0,
+    "observation": "No prediction label flipped under any (q, alpha); L18/R_end additive intervention causal effect below the flip threshold even at |alpha|=2 (delta = 5.61 in L18 residual stream units)."
+  },
+  "frozen_before_final_reserve": true,
+  "final_reserve_read": false
+}

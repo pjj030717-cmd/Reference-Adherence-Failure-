@@ -1,0 +1,290 @@
+{
+  "final_label": "prompt_baselines_dev_complete",
+  "phase0_inheritance": {
+    "d0_label_ok": true,
+    "d1_label_ok": true,
+    "d1r_label_ok": true,
+    "d1ra_label_ok": true,
+    "templates_sha256_verified": true,
+    "qwen_revision_consistent_with_d1": true,
+    "teacher_forced_readout_inherited_from_d1": true
+  },
+  "phase1_semantic_qualification": {
+    "B_base": {
+      "pairwise_order_accuracy": "24/24",
+      "per_class": "12/12+12/12",
+      "ties": 0,
+      "mean_delta_sign": "OK",
+      "greedy_agrees": "24/24"
+    },
+    "B_direct": {
+      "pairwise_order_accuracy": "24/24",
+      "per_class": "12/12+12/12",
+      "ties": 0,
+      "mean_delta_sign": "OK",
+      "greedy_agrees": "24/24"
+    },
+    "B_CoT_gen": {
+      "parseable": "24/24",
+      "match_to_A": "12/12",
+      "mismatch_to_B": "12/12"
+    }
+  },
+  "phase2_bbase_reproduction": {
+    "vs_D1": "780/780",
+    "vs_D1_R": "780/780",
+    "repro_total": 780
+  },
+  "phase2_bootstrap": {
+    "iterations": 2000,
+    "seed": 20260815,
+    "resample_unit": "source_group_id",
+    "per_baseline_template": {
+      "B_base|T0": {
+        "SS_FR": 0.758974,
+        "RPAG": 0.758974,
+        "ACC_o": 1.0,
+        "ACC_s": 0.241026
+      },
+      "B_base|T1": {
+        "SS_FR": 0.825641,
+        "RPAG": 0.825641,
+        "ACC_o": 1.0,
+        "ACC_s": 0.174359
+      },
+      "B_base|T2": {
+        "SS_FR": 0.825641,
+        "RPAG": 0.820513,
+        "ACC_o": 0.994872,
+        "ACC_s": 0.174359
+      },
+      "B_direct|T0": {
+        "SS_FR": 0.74359,
+        "RPAG": 0.74359,
+        "ACC_o": 1.0,
+        "ACC_s": 0.25641
+      },
+      "B_direct|T1": {
+        "SS_FR": 0.805128,
+        "RPAG": 0.8,
+        "ACC_o": 0.994872,
+        "ACC_s": 0.194872
+      },
+      "B_direct|T2": {
+        "SS_FR": 0.8,
+        "RPAG": 0.794872,
+        "ACC_o": 0.994872,
+        "ACC_s": 0.2
+      },
+      "B_CoT_gen|T0": {
+        "SS_FR": 0.753846,
+        "RPAG": 0.753846,
+        "ACC_o": 1.0,
+        "ACC_s": 0.246154
+      },
+      "B_CoT_gen|T1": {
+        "SS_FR": 0.810256,
+        "RPAG": 0.8,
+        "ACC_o": 0.989744,
+        "ACC_s": 0.189744
+      },
+      "B_CoT_gen|T2": {
+        "SS_FR": 0.758974,
+        "RPAG": 0.758974,
+        "ACC_o": 1.0,
+        "ACC_s": 0.241026
+      }
+    }
+  },
+  "aggregate_by_cell": {
+    "B_base|T0": {
+      "OO": [
+        195,
+        195
+      ],
+      "OS": [
+        195,
+        195
+      ],
+      "SO": [
+        195,
+        181
+      ],
+      "SS": [
+        195,
+        47
+      ]
+    },
+    "B_base|T1": {
+      "OO": [
+        195,
+        195
+      ],
+      "OS": [
+        195,
+        195
+      ],
+      "SO": [
+        195,
+        191
+      ],
+      "SS": [
+        195,
+        34
+      ]
+    },
+    "B_base|T2": {
+      "OO": [
+        195,
+        194
+      ],
+      "OS": [
+        195,
+        195
+      ],
+      "SO": [
+        195,
+        190
+      ],
+      "SS": [
+        195,
+        34
+      ]
+    },
+    "B_direct|T0": {
+      "OO": [
+        195,
+        195
+      ],
+      "OS": [
+        195,
+        195
+      ],
+      "SO": [
+        195,
+        193
+      ],
+      "SS": [
+        195,
+        50
+      ]
+    },
+    "B_direct|T1": {
+      "OO": [
+        195,
+        194
+      ],
+      "OS": [
+        195,
+        195
+      ],
+      "SO": [
+        195,
+        194
+      ],
+      "SS": [
+        195,
+        38
+      ]
+    },
+    "B_direct|T2": {
+      "OO": [
+        195,
+        194
+      ],
+      "OS": [
+        195,
+        195
+      ],
+      "SO": [
+        195,
+        192
+      ],
+      "SS": [
+        195,
+        39
+      ]
+    },
+    "B_CoT_gen|T0": {
+      "OO": [
+        195,
+        195
+      ],
+      "OS": [
+        195,
+        195
+      ],
+      "SO": [
+        195,
+        185
+      ],
+      "SS": [
+        195,
+        48
+      ]
+    },
+    "B_CoT_gen|T1": {
+      "OO": [
+        195,
+        193
+      ],
+      "OS": [
+        195,
+        195
+      ],
+      "SO": [
+        195,
+        170
+      ],
+      "SS": [
+        195,
+        37
+      ]
+    },
+    "B_CoT_gen|T2": {
+      "OO": [
+        195,
+        195
+      ],
+      "OS": [
+        195,
+        193
+      ],
+      "SO": [
+        195,
+        185
+      ],
+      "SS": [
+        195,
+        47
+      ]
+    }
+  },
+  "tie_rate": {
+    "B_base|T0": 0,
+    "B_base|T1": 0,
+    "B_base|T2": 0,
+    "B_direct|T0": 0,
+    "B_direct|T1": 0,
+    "B_direct|T2": 0,
+    "B_CoT_gen|T0": 0,
+    "B_CoT_gen|T1": 0,
+    "B_CoT_gen|T2": 0
+  },
+  "unparseable_rate": {
+    "B_base|T0": 0,
+    "B_base|T1": 0,
+    "B_base|T2": 0,
+    "B_direct|T0": 0,
+    "B_direct|T1": 0,
+    "B_direct|T2": 0,
+    "B_CoT_gen|T0": 3,
+    "B_CoT_gen|T1": 1,
+    "B_CoT_gen|T2": 4
+  },
+  "final_reserve_read": false,
+  "hidden_states_read": false,
+  "probe_trained": false,
+  "activation_intervention_run": false,
+  "train_text_read": false
+}

@@ -1,0 +1,19 @@
+template_id,probe_answer,rendered_candidate,character_length,word_count,sentence_count,token_ids,token_count,answer_span_char_start
+T0,Paris,The answer is Paris.,20,4,1,"785,4226,374,12095,13",5,14
+T0,heart,The answer is heart.,20,4,1,"785,4226,374,4746,13",5,14
+T0,H2O,The answer is H2O.,18,4,1,"785,4226,374,472,17,46,13",7,14
+T0,800,The answer is 800.,18,4,1,"785,4226,374,220,23,15,15,13",8,14
+T0,true,The answer is true.,19,4,1,"785,4226,374,830,13",5,14
+T0,Gianluigi Buffon,The answer is Gianluigi Buffon.,31,5,1,"785,4226,374,78604,9835,29537,18961,263,13",9,14
+T1,Paris,"For this question, the answer is Paris.",39,7,1,"2461,419,3405,11,279,4226,374,12095,13",9,33
+T1,heart,"For this question, the answer is heart.",39,7,1,"2461,419,3405,11,279,4226,374,4746,13",9,33
+T1,H2O,"For this question, the answer is H2O.",37,7,1,"2461,419,3405,11,279,4226,374,472,17,46,13",11,33
+T1,800,"For this question, the answer is 800.",37,7,1,"2461,419,3405,11,279,4226,374,220,23,15,15,13",12,33
+T1,true,"For this question, the answer is true.",38,7,1,"2461,419,3405,11,279,4226,374,830,13",9,33
+T1,Gianluigi Buffon,"For this question, the answer is Gianluigi Buffon.",50,8,1,"2461,419,3405,11,279,4226,374,78604,9835,29537,18961,263,13",13,33
+T2,Paris,The response is Paris.,22,4,1,"785,2033,374,12095,13",5,16
+T2,heart,The response is heart.,22,4,1,"785,2033,374,4746,13",5,16
+T2,H2O,The response is H2O.,20,4,1,"785,2033,374,472,17,46,13",7,16
+T2,800,The response is 800.,20,4,1,"785,2033,374,220,23,15,15,13",8,16
+T2,true,The response is true.,21,4,1,"785,2033,374,830,13",5,16
+T2,Gianluigi Buffon,The response is Gianluigi Buffon.,33,5,1,"785,2033,374,78604,9835,29537,18961,263,13",9,16

@@ -1,0 +1,84 @@
+id,expected_label,generation,last_nonempty_line,verdict,parseable,correct
+S01,A,"The Candidate Answer ""Paris"" agrees with the Reference Answer ""Paris"".
+
+Final verdict: A",Final verdict: A,A,True,True
+S02,A,"The Candidate Answer ""Mars"" agrees with the Reference Answer ""Mars"".
+
+Final verdict: A",Final verdict: A,A,True,True
+S03,A,"The Candidate Answer ""Carbon dioxide"" agrees with the Reference Answer ""Carbon dioxide"".
+
+Final verdict: A",Final verdict: A,A,True,True
+S04,A,"Reasoning:
+1. The Reference Answer states that Herman Melville wrote Moby-Dick.
+2. The Candidate Answer also states that Herman Melville wrote Moby-Dick.
+3. Both answers match exactly.
+
+Final verdict: A",Final verdict: A,A,True,True
+S05,A,"The Candidate Answer ""Pacific Ocean"" agrees with the Reference Answer ""Pacific Ocean"".
+
+Final verdict: A",Final verdict: A,A,True,True
+S06,A,"The Candidate Answer ""Six"" agrees with the Reference Answer ""Six"".
+
+Final verdict: A",Final verdict: A,A,True,True
+S07,A,"Reasoning: The Candidate Answer ""Barometer"" matches exactly with the Reference Answer ""Barometer"". There is no discrepancy between them.
+
+Final verdict: A",Final verdict: A,A,True,True
+S08,A,"The Candidate Answer ""Mercury"" agrees with the Reference Answer ""Mercury.""
+
+Final verdict: A",Final verdict: A,A,True,True
+S09,A,"The Candidate Answer ""Zero"" agrees with the Reference Answer ""Zero"".
+
+Final verdict: A",Final verdict: A,A,True,True
+S10,A,"Reasoning: The Candidate Answer ""Leonardo da Vinci"" matches exactly with the Reference Answer ""Leonardo da Vinci"".
+
+Final verdict: A",Final verdict: A,A,True,True
+S11,A,"Reasoning: The Candidate Answer ""About 300,000 km per second"" matches exactly with the Reference Answer ""About 300,000 km per second"".
+Final verdict: A",Final verdict: A,A,True,True
+S12,A,"Reasoning:
+1. The Reference Answer states that the heart is the organ that pumps blood through the body.
+2. The Candidate Answer also states that the heart is the organ that pumps blood through the body.
+3. Both answers match exactly.
+
+Final verdict: A",Final verdict: A,A,True,True
+S13,B,"The Candidate Answer ""Berlin"" does not agree with the Reference Answer ""Paris"".
+
+Final verdict: B",Final verdict: B,B,True,True
+S14,B,"Reasoning:
+- The Reference Answer states that Mars is known as the Red Planet.
+- The Candidate Answer states that Venus is known as the Red Planet.
+- These statements contradict each other.
+
+Final verdict: B",Final verdict: B,B,True,True
+S15,B,"The reference answer states that plants absorb carbon dioxide during photosynthesis. The candidate answer suggests that plants absorb oxygen, which is incorrect according to the reference answer.
+
+Final verdict: B",Final verdict: B,B,True,True
+S16,B,"The reference answer states that Herman Melville wrote Moby-Dick. The candidate answer suggests Mark Twain wrote it. These two names do not agree.
+
+Final verdict: B",Final verdict: B,B,True,True
+S17,B,"The Candidate Answer states ""Atlantic Ocean,"" which does not agree with the Reference Answer that states ""Pacific Ocean.""
+
+Final verdict: B",Final verdict: B,B,True,True
+S18,B,"The Candidate Answer does not agree with the Reference Answer because a hexagon has six sides, not eight.
+
+Final verdict: B",Final verdict: B,B,True,True
+S19,B,"Reasoning: The reference answer states that a barometer is the instrument used to measure atmospheric pressure. The candidate answer suggests a thermometer, which is incorrect as thermometers measure temperature, not atmospheric pressure.
+
+Final verdict: B",Final verdict: B,B,True,True
+S20,B,"Reasoning:
+- The reference answer states that mercury is the metal that is liquid at room temperature.
+- The candidate answer states that copper is the metal that is liquid at room temperature.
+- These statements contradict each other since mercury is the correct metal that is liquid at room temperature, not copper.
+
+Final verdict: B",Final verdict: B,B,True,True
+S21,B,"The reference answer states that the freezing point of water in Celsius is zero. The candidate answer states that the freezing point of water in Celsius is one hundred. These two statements contradict each other.
+
+Final verdict: B",Final verdict: B,B,True,True
+S22,B,"The Candidate Answer states that Pablo Picasso painted the Mona Lisa. However, the Reference Answer clearly states that Leonardo da Vinci painted the Mona Lisa. Therefore, the Candidate Answer does not agree with the Reference Answer.
+
+Final verdict: B",Final verdict: B,B,True,True
+S23,B,"The reference answer states that the speed of light in a vacuum is about 300,000 km per second. The candidate answer states that the speed of light in a vacuum is about 300,000 km per day. These two statements do not agree because seconds and days are vastly different units of time. 
+
+Final verdict: B",Final verdict: B,B,True,True
+S24,B,"Reasoning: The reference answer states that the heart is the organ that pumps blood through the body. The candidate answer suggests the liver, which is incorrect according to the reference answer.
+
+Final verdict: B",Final verdict: B,B,True,True

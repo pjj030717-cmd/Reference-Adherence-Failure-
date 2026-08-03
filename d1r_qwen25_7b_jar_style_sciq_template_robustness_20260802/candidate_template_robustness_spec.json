@@ -1,0 +1,29 @@
+{
+  "templates": {
+    "T0": {
+      "template": "The answer is <answer>.",
+      "utf8_sha256": "c42e1ea10a6be3343c109664dbd25860bb6dade650d7a86c066e7ddbb0d298bc"
+    },
+    "T1": {
+      "template": "For this question, the answer is <answer>.",
+      "utf8_sha256": "d325f862ad174533fe38c193744bbebd30b23e2ec72905a173c2b2eaed8fc078"
+    },
+    "T2": {
+      "template": "The response is <answer>.",
+      "utf8_sha256": "5fb1b5ed1ba1cb158981aea1673d936dcf88ff91b1423c6796031886de47df24"
+    }
+  },
+  "fixed_rules": [
+    "<answer> \u76f4\u63a5\u4f7f\u7528 D0 \u5df2\u51bb\u7ed3\u7684 r_o \u6216 r_s \u5f52\u4e00\u5316\u539f\u6587",
+    "\u9664\u5019\u9009\u53e5\u6a21\u677f\u6587\u5b57\u5916\u4e0d\u6539\u53d8\u4efb\u4f55\u5b57\u7b26",
+    "\u4e0d\u5f97\u589e\u6dfb\u89e3\u91ca/\u7406\u7531/CoT/reference \u5b57\u6837/correct|incorrect \u5b57\u6837/\u989d\u5916\u4e8b\u5b9e/\u4f8b\u5b50/\u65b0 prompt",
+    "\u4e0d\u5f97\u91cd\u62bd swap\u3001\u5220\u9664 group\u3001\u6309\u6a21\u578b\u5206\u6570\u9009\u62e9\u6837\u672c",
+    "\u6bcf\u4e2a group \u7684 OO/OS/SO/SS \u56db\u683c\u5fc5\u987b\u4f7f\u7528\u540c\u4e00\u6a21\u677f",
+    "T0 \u4e3a D1 \u539f\u6a21\u677f\uff1bT1/T2 \u4e3a\u4ec5\u6539\u53d8\u8868\u8ff0\u7684\u65b0\u6a21\u677f"
+  ],
+  "user_template_unchanged": "Question: {question}\n\nReference Answer: {reference}\n\nCandidate Answer: {candidate}\n\nAnswer:",
+  "continuations": {
+    "accept": " A",
+    "reject": " B"
+  }
+}

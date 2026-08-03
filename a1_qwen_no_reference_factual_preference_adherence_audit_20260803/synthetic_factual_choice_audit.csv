@@ -1,0 +1,25 @@
+id,question,option_a,option_b,correct_option,order1_pred,order1_correct,order1_d_raw,order2_pred,order2_correct,order2_d_raw,pair_overall_correct,greedy1,greedy2,greedy_pair_consistent
+A01,What is the capital of France?,Paris,Rome,A,A,True,21.8828125,B,True,-21.671875,True,A,B,True
+A02,Which planet is known as the Red Planet?,Mars,Venus,A,A,True,23.5625,B,True,-22.3125,True,A,B,True
+A03,How many sides does a triangle have?,Three,Five,A,A,True,22.46875,B,True,-21.609375,True,A,B,True
+A04,What is the freezing point of water in Celsius?,Zero,One hundred,A,A,True,18.953125,B,True,-21.65625,True,A,B,True
+A05,Which ocean is the largest?,Pacific,Atlantic,A,A,True,18.1015625,B,True,-21.671875,True,A,B,True
+A06,Who wrote the novel Moby-Dick?,Herman Melville,Mark Twain,A,A,True,23.265625,B,True,-23.3125,True,A,B,True
+A07,What gas do plants absorb during photosynthesis?,Carbon dioxide,Oxygen,A,A,True,19.44921875,B,True,-20.484375,True,A,B,True
+A08,Which metal is liquid at room temperature?,Mercury,Copper,A,A,True,20.953125,B,True,-21.140625,True,A,B,True
+A09,How many continents are there?,Seven,Six,A,A,True,19.87109375,B,True,-18.0703125,True,A,B,True
+A10,What is the largest planet in the solar system?,Jupiter,Saturn,A,A,True,18.70703125,B,True,-19.625,True,A,B,True
+A11,Which organ pumps blood through the body?,Heart,Liver,A,A,True,22.265625,B,True,-21.90625,True,A,B,True
+A12,What instrument measures atmospheric pressure?,Barometer,Thermometer,A,A,True,22.046875,B,True,-22.4375,True,A,B,True
+B01,What is the capital of Italy?,Milan,Rome,B,B,True,-22.46875,A,True,21.3828125,True,B,A,True
+B02,Which planet has the most prominent rings?,Mars,Saturn,B,B,True,-21.71875,A,True,22.546875,True,B,A,True
+B03,How many legs does a spider have?,Six,Eight,B,B,True,-22.8125,A,True,21.125,True,B,A,True
+B04,What is the boiling point of water in Celsius?,Zero,One hundred,B,B,True,-21.453125,A,True,21.546875,True,B,A,True
+B05,Which country is known as the Land of the Rising Sun?,China,Japan,B,B,True,-23.125,A,True,23.328125,True,B,A,True
+B06,Who painted the Mona Lisa?,Michelangelo,Leonardo da Vinci,B,B,True,-22.15625,A,True,24.09375,True,B,A,True
+B07,Which gas do humans breathe in to live?,Helium,Oxygen,B,B,True,-20.875,A,True,22.59375,True,B,A,True
+B08,What is the fastest land animal?,Lion,Cheetah,B,B,True,-21.203125,A,True,20.49609375,True,B,A,True
+B09,How many strings does a standard guitar have?,Four,Six,B,B,True,-22.09375,A,True,23.75,True,B,A,True
+B10,What is the smallest planet in the solar system?,Earth,Mercury,B,B,True,-18.8671875,A,True,19.8046875,True,B,A,True
+B11,Which is the longest river in Africa?,Congo,Nile,B,B,True,-17.08984375,A,True,18.7578125,True,B,A,True
+B12,What is the currency of Japan?,Yuan,Yen,B,B,True,-22.375,A,True,22.671875,True,B,A,True

@@ -1,0 +1,3 @@
+metric,value,note
+AUROC,1.0,uses final judge decision (-d_raw); NOT a fair comparison to M_ref_rep
+AUPRC,1.0,upper-bound diagnostic only

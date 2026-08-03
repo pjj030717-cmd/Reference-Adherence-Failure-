@@ -1,0 +1,16 @@
+{
+  "final_label": "prefix_causality_audit_invalid",
+  "final_reserve_model_scored": false,
+  "final_reserve_hidden_states_read": false,
+  "probe_trained": true,
+  "activation_intervention_run": false,
+  "prompt_baselines_run": false,
+  "mistral_loaded": false,
+  "inheritance_audit": "PASS",
+  "behavior_reproduction": "PASS",
+  "token_span_mapping": "PASS",
+  "ss_capacity": "PASS",
+  "prefix_causality_audit": "INVALID",
+  "reason": "T1 (For this question, the answer is <answer>.) yields numerically different R_end hidden states vs T0 for 27/195 dev groups (max diff 7.5) despite identical prefix token ids and R_end position; T2 (same total length as T0) matches exactly. R_end is thus not a strictly prefix-pure state w.r.t. total sequence length. Protocol requires stop.",
+  "note": "Main T0-based M_ref_rep probe metrics are strong (dev AUROC 0.9027), but the pre-registered prefix-causality audit fails; therefore D3 is not allowed."
+}
